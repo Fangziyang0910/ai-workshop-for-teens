@@ -1,0 +1,36 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第一课 · 课堂演示入口</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f3f6f8;color:#142e49;font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}main{max-width:1120px;margin:auto;padding:32px 26px}header{font-size:13px;color:#617487;margin-bottom:25px}h1{font-size:36px;margin:0 0 10px}.lead{color:#617487;font-size:15px;line-height:1.8;margin-bottom:24px}nav{display:flex;gap:12px;flex-wrap:wrap;padding-bottom:25px;border-bottom:1px solid #d9e2e8}a,button{color:inherit}nav a,button{font:inherit;display:inline-block;padding:11px 18px;border:1px solid #cfdae2;background:white;border-radius:7px;cursor:pointer;text-decoration:none}nav a:first-child,.primary{background:#efb43d;border-color:#efb43d;font-weight:700}a:focus-visible,button:focus-visible,textarea:focus-visible{outline:3px solid #26739c;outline-offset:3px}h2{font-size:23px;margin:28px 0 14px}p{line-height:1.8}textarea{font-family:inherit;line-height:1.8;font-size:14px;width:100%;padding:17px;border:1px solid #cdd9e3;border-radius:8px;background:white;resize:vertical}details{border-bottom:1px solid #d9e2e8;padding:15px 0}summary{cursor:pointer;font-size:17px}details textarea{height:250px;margin:14px 0 8px}#code{min-height:180px}.actions{display:flex;gap:10px;margin:12px 0 15px;align-items:center;flex-wrap:wrap}#message{font-size:14px;color:#426b7e}iframe{width:100%;height:760px;border:1px solid #cdd9e3;border-radius:9px;background:white}iframe[hidden]{display:none}.small{font-size:13px;color:#617487}.step{font-size:12px;color:#28648b;letter-spacing:1px}footer{font-size:12px;color:#617487;margin:24px 0}</style>
+<main><header>AI 创想工坊 / 第一课 AI侦探</header><h1>课堂演示，从这里开始</h1><p class="lead">数字识别与备用游戏可以离线运行。现场用DeepSeek制作游戏时，请教师提前登录账号并连接网络。</p>
+<nav><a href="手写数字识别.html" target="_blank">手写数字识别 ↗</a><a href="https://chat.deepseek.com/" target="_blank" rel="noreferrer">打开 DeepSeek ↗</a><a href="贪吃蛇_备用原版.html" target="_blank">备用贪吃蛇 ↗</a><a href="贪吃蛇_备用慢速版.html" target="_blank">备用慢速版 ↗</a></nav>
+<h2>先做出游戏，再提出一个修改</h2><p class="small">先请学生说出规则。展开下面的要求，复制到DeepSeek；得到回复后，把完整HTML代码放到下方运行。</p>
+<details open><summary>01　请AI制作贪吃蛇</summary><textarea id="prompt1" readonly aria-label="第一次生成贪吃蛇的提示词">请为初中生课堂制作一款完整的贪吃蛇小游戏。
+
+玩法要求：
+1. 用方向键控制移动，不能直接掉头。
+2. 吃到食物加1分，身体变长；食物不能出现在蛇身上。
+3. 撞到墙壁或自己的身体，本局结束。
+4. 有开始、暂停、继续和重新开始功能。页面打开后先等待玩家开始。
+5. 显示当前得分、最高得分和操作说明。最高得分只需在本次页面内保存。
+6. 棋盘为24×24格，初始速度固定为每秒5格。
+
+界面要求：适合教室投屏。使用深蓝棋盘、蓝绿色蛇身、金色蛇头和醒目的食物；字号清楚，排版整洁。游戏结束时在页面里显示结果，不弹出提示窗口。
+
+请把HTML、CSS和JavaScript放在同一个完整HTML文件中。不使用外部库、网络图片、外部字体或服务器。用浏览器打开就能玩。按方向键时不要让页面滚动。
+
+只输出一个完整HTML代码块，不省略代码。</textarea><button data-copy="prompt1">复制第一次要求</button></details>
+<details><summary>02　把速度降低一半</summary><textarea id="prompt2" readonly aria-label="修改贪吃蛇速度的提示词">刚才的移动速度太快。请把速度从每秒5格降低为每秒2.5格，也就是原来的一半。
+
+保持原有玩法、界面、计分、身体变长、暂停和重新开始功能。同步修改页面上的速度说明。
+
+请输出修改后的完整HTML代码，不只给修改片段。</textarea><button data-copy="prompt2">复制修改要求</button></details>
+<h2>运行刚才生成的作品</h2><label for="code" class="small">粘贴DeepSeek回复中的完整HTML代码。可以连同代码块标记一起粘贴。</label><textarea id="code" maxlength="1000000" spellcheck="false" placeholder="把完整HTML代码粘贴到这里"></textarea><div class="actions"><button class="primary" id="run">运行代码</button><button id="save">保存为HTML</button><button id="fullscreen">全屏查看</button><span id="message" role="status" aria-live="polite">等待粘贴代码</span></div>
+<iframe id="preview" hidden title="AI生成作品的运行预览" sandbox="allow-scripts" allow="fullscreen"></iframe><p class="small">点击游戏区域后，用方向键操作。预览出错时可保存为HTML再打开；页面内预览限制了代码访问浏览器存储和外部页面的能力。</p><footer>两份备用游戏是课前准备的成品，便于现场等待较长或代码未运行时继续教学。</footer></main>
+<script>
+const $=id=>document.getElementById(id);
+function code(){return $('code').value.trim().replace(/^```(?:html)?\s*/i,'').replace(/\s*```$/,'');}
+function validate(s){if(!/<(?:!doctype\s+html|html|body)\b/i.test(s)){$('message').textContent='请粘贴完整HTML代码，再运行。';return false;}return true;}
+document.querySelectorAll('[data-copy]').forEach(button=>button.onclick=()=>{const field=$(button.dataset.copy);field.focus();field.select();let ok=false;try{ok=document.execCommand('copy');}catch{}$('message').textContent=ok?'要求已复制，切到DeepSeek粘贴即可。':'文字已选中，请按 Ctrl+C 复制。';});
+$('run').onclick=()=>{const s=code();if(!validate(s))return;$('preview').srcdoc=s;$('preview').hidden=false;$('message').textContent='作品已打开。点击游戏区域，再用方向键操作。';$('preview').scrollIntoView({behavior:'smooth',block:'start'});};
+$('save').onclick=()=>{const s=code();if(!validate(s))return;const url=URL.createObjectURL(new Blob([s],{type:'text/html;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='DeepSeek_贪吃蛇.html';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);$('message').textContent='已保存HTML文件。用Chrome或Edge打开即可。';};
+$('fullscreen').onclick=async()=>{if($('preview').hidden){$('message').textContent='请先运行代码。';return;}try{await $('preview').requestFullscreen();}catch{$('message').textContent='浏览器未开启全屏，可滚动到作品区域或保存HTML后打开。';}};
+</script></html>
