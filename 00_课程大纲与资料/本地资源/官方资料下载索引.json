@@ -1,0 +1,560 @@
+[
+  {
+    "url": "https://docs.dify.ai/en/self-host/deploy/quick-start/docker-compose",
+    "name": "Dify部署",
+    "path": "下载文件/03_官方资料/01_Dify部署/原始网页.html",
+    "reader": "下载文件/03_官方资料/01_Dify部署/本地阅读.html",
+    "sha256": "8163c602288019975837b745bc9d3df3e723c416efbb23b5c0e7958ebbca7886",
+    "bytes": 346966,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://docs.docker.com/engine/install/ubuntu/",
+    "name": "Docker官方Ubuntu安装步骤",
+    "path": "下载文件/03_官方资料/02_Docker官方Ubuntu安装步骤/原始网页.html",
+    "reader": "下载文件/03_官方资料/02_Docker官方Ubuntu安装步骤/本地阅读.html",
+    "sha256": "1535e62681d1f7dee126e586ec1906745eff76e1b35879190b539a4a79978990",
+    "bytes": 584076,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/model-studio/deep-thinking",
+    "name": "百炼思考模式说明",
+    "path": "下载文件/03_官方资料/03_百炼思考模式说明/原始网页.html",
+    "reader": "下载文件/03_官方资料/03_百炼思考模式说明/本地阅读.html",
+    "sha256": "320779a949ad5c75a109ff1db5540837b566dfc09115e15a98e9f4c0bf2c55c6",
+    "bytes": 303636,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/model-studio/regions/",
+    "name": "百炼地域与接入域名",
+    "path": "下载文件/03_官方资料/04_百炼地域与接入域名/原始网页.html",
+    "reader": "下载文件/03_官方资料/04_百炼地域与接入域名/本地阅读.html",
+    "sha256": "f6b8680a8687ea3758319972cfe5dad64eb0aa3e5909efa80f3e166911c8726f",
+    "bytes": 79876,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "name": "模型计费与版本",
+    "path": "下载文件/03_官方资料/05_模型计费与版本/原始网页.html",
+    "reader": "下载文件/03_官方资料/05_模型计费与版本/本地阅读.html",
+    "sha256": "770aba34f410ab2f47f6fde79a97aa12adbe20a65a48dd9e8ca2ecb4730872fd",
+    "bytes": 1458859,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://docs.dify.ai/en/self-host/use-dify/workspace/team-members-management",
+    "name": "成员权限",
+    "path": "下载文件/03_官方资料/06_成员权限/原始网页.html",
+    "reader": "下载文件/03_官方资料/06_成员权限/本地阅读.html",
+    "sha256": "2b346793bd08a5b81a2aeadc5aefcd61661d8758ccffb857483bbe71af98b9a3",
+    "bytes": 307744,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://docs.dify.ai/en/self-host/use-dify/workspace/app-management",
+    "name": "应用导入导出",
+    "path": "下载文件/03_官方资料/07_应用导入导出/原始网页.html",
+    "reader": "下载文件/03_官方资料/07_应用导入导出/本地阅读.html",
+    "sha256": "8650103a541134047fb4f81a556a01d946ec4dfd167ce30cf48fa1bc049341dd",
+    "bytes": 336369,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://www.dfrobot.com.cn/goods-2921.html",
+    "name": "DFRobot MBT0039",
+    "path": "下载文件/03_官方资料/08_DFRobot_MBT0039/原始网页.html",
+    "reader": "下载文件/03_官方资料/08_DFRobot_MBT0039/本地阅读.html",
+    "sha256": "68dd94193f46fe890b1d90518054c3038f255b92036bf6a060ca6d8bd4bd98a2",
+    "bytes": 110560,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://kittenbot.cn/doc/hardware/microbitv2/",
+    "name": "中文硬件说明",
+    "path": "下载文件/03_官方资料/09_中文硬件说明/原始网页.html",
+    "reader": "下载文件/03_官方资料/09_中文硬件说明/本地阅读.html",
+    "sha256": "81b015991f2aa132046d1c2af223ada3d5065804a3571b7bf0574a6a8c448405",
+    "bytes": 21189,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://www.logitech.com/zh-cn/shop/p/c270-hd-webcam",
+    "name": "罗技中文产品说明",
+    "path": "下载文件/03_官方资料/10_罗技中文产品说明/原始网页.html",
+    "reader": "下载文件/03_官方资料/10_罗技中文产品说明/本地阅读.html",
+    "sha256": "7a803a50c08f940e052cb199d04f0b57f3d06290d398ed993f26e017d9f06a0b",
+    "bytes": 222231,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://mindplus.cc/download.html",
+    "name": "Mind+官方下载",
+    "path": "下载文件/03_官方资料/11_Mind_官方下载/原始网页.html",
+    "reader": "下载文件/03_官方资料/11_Mind_官方下载/本地阅读.html",
+    "sha256": "7f199c36d2ab81535555e5315d3975beddb8bbb84bdef74ea20e31ed14dd4c5b",
+    "bytes": 63240,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://mindplus.dfrobot.com.cn/ReleaseLogs",
+    "name": "版本说明",
+    "path": "下载文件/03_官方资料/12_版本说明/原始网页.html",
+    "reader": "下载文件/03_官方资料/12_版本说明/本地阅读.html",
+    "sha256": "78f37c9d18c8929cb55b3fde058b3f750b0aa955e067baef3b071a6a87e81163",
+    "bytes": 157628,
+    "kind": "webpage",
+    "assets": [
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/none/df0cb84d6184df9f2b30338a5474507e.png",
+        "path": "下载文件/03_官方资料/12_版本说明/图000.png",
+        "sha256": "51251d6a394444a90a26a2b40575fced60338a9c0ea007918d1909e204fb3e19",
+        "bytes": 51985,
+        "kind": "image",
+        "name": "版本说明配图"
+      }
+    ]
+  },
+  {
+    "url": "https://mindplus.dfrobot.com.cn/ml5-knn",
+    "name": "ML5 KNN中文教程",
+    "path": "下载文件/03_官方资料/13_ML5_KNN中文教程/原始网页.html",
+    "reader": "下载文件/03_官方资料/13_ML5_KNN中文教程/本地阅读.html",
+    "sha256": "86fa57e4ca65bbb0be6cbe9d7069cb063162b80a4c2a153920fb908cd714cd28",
+    "bytes": 63901,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://mindplus.dfrobot.com.cn/DFR0497",
+    "name": "micro:bit实时互动",
+    "path": "下载文件/03_官方资料/14_micro_bit实时互动/原始网页.html",
+    "reader": "下载文件/03_官方资料/14_micro_bit实时互动/本地阅读.html",
+    "sha256": "b6961d2c7a5b4915869fb6cc1dc212cc240c25305b494a86d833f2b7e51cff99",
+    "bytes": 50995,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://wiki.dfrobot.com.cn/Mindplus_基础wiki教程-实时模式编程流程",
+    "name": "实时模式编程流程",
+    "path": "下载文件/03_官方资料/15_实时模式编程流程/原始网页.html",
+    "reader": "下载文件/03_官方资料/15_实时模式编程流程/本地阅读.html",
+    "sha256": "7db57de603f89bf2ae5b18f929e5b66d1b4457af8c8f3e427f4b1196518a7ba7",
+    "bytes": 296929,
+    "kind": "webpage",
+    "assets": [
+      {
+        "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/1%E5%AE%9E%E6%97%B6%E6%A8%A1%E5%BC%8F%E5%88%87%E6%8D%A2.png",
+        "path": "下载文件/03_官方资料/15_实时模式编程流程/图000.png",
+        "sha256": "9db96973a661dab90e4e5927662870c6fdded1b0bd705695acb38d9b19c127b0",
+        "bytes": 86575,
+        "kind": "image",
+        "name": "实时模式编程流程配图"
+      },
+      {
+        "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/2%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE.png",
+        "path": "下载文件/03_官方资料/15_实时模式编程流程/图001.png",
+        "sha256": "cd373d0fa9df1e5c41bd3cdfaf546167f2b9096b414db3def185d9cac7771d77",
+        "bytes": 38307,
+        "kind": "image",
+        "name": "实时模式编程流程配图"
+      },
+      {
+        "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/3%E5%AE%9E%E6%97%B6%E6%89%A9%E5%B1%95%E4%B8%AD%E9%80%89%E6%8B%A9%E4%B8%BB%E6%8E%A7%E7%89%88.png",
+        "path": "下载文件/03_官方资料/15_实时模式编程流程/图002.png",
+        "sha256": "a292ab7f9e21062ebf42b5d5ecf06c3b519b80d3004c485909dfa6541b86fa5d",
+        "bytes": 119267,
+        "kind": "image",
+        "name": "实时模式编程流程配图"
+      },
+      {
+        "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/4%E6%B7%BB%E5%8A%A0%E6%89%A9%E5%B1%95%E5%8A%9F%E8%83%BD.png",
+        "path": "下载文件/03_官方资料/15_实时模式编程流程/图003.png",
+        "sha256": "0bcda14f707f3c38562de0f97e7f9e769ea393de1cc16d741aadc120c86dd3b5",
+        "bytes": 45049,
+        "kind": "image",
+        "name": "实时模式编程流程配图"
+      },
+      {
+        "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/5%E7%BC%96%E5%86%99%E7%A8%8B%E5%BA%8F.png",
+        "path": "下载文件/03_官方资料/15_实时模式编程流程/图004.png",
+        "sha256": "3d6dc6dbb9851ca471f7cf5535e222bc22ebaa74f7c7b3c602cb10d3941821a7",
+        "bytes": 29878,
+        "kind": "image",
+        "name": "实时模式编程流程配图"
+      },
+      {
+        "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/6%E8%BF%9E%E6%8E%A5%E8%AE%BE%E5%A4%87.png",
+        "path": "下载文件/03_官方资料/15_实时模式编程流程/图005.png",
+        "sha256": "ab520c01befaea11c62f85644dc84667277fefe8feec6b1da38daeee3021ad4e",
+        "bytes": 101887,
+        "kind": "image",
+        "name": "实时模式编程流程配图"
+      },
+      {
+        "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/7%E8%BF%9B%E8%A1%8C%E4%BA%A4%E4%BA%92.png",
+        "path": "下载文件/03_官方资料/15_实时模式编程流程/图006.png",
+        "sha256": "6ca2d970f846422c2432be63ce0249bdc061e68c512635fcef0dc1aa2a2d72a3",
+        "bytes": 97733,
+        "kind": "image",
+        "name": "实时模式编程流程配图"
+      }
+    ]
+  },
+  {
+    "url": "https://mindplus.dfrobot.com.cn/FAQ",
+    "name": "Mind+常见问题",
+    "path": "下载文件/03_官方资料/16_Mind_常见问题/原始网页.html",
+    "reader": "下载文件/03_官方资料/16_Mind_常见问题/本地阅读.html",
+    "sha256": "6814088e1383aade3a4becd6c69b4a60cb9f1a5173874e2b74f7b88488a37e64",
+    "bytes": 128927,
+    "kind": "webpage",
+    "assets": [
+      {
+        "url": "https://img.dfrobot.com.cn/wikicn/599a45d540a65c6bb27c3b2a/c2dbdbec8e300e4a48b13d9ebd36afc9.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图000.png",
+        "sha256": "0b8d910e92dea1fb5f3ecddcab80b1e9ab3318a947b42d6549ac5eacc0f29b2a",
+        "bytes": 119670,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/bd9eb20887ecf4fe0894906e2cb9b8c9.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图001.png",
+        "sha256": "aab0317c33b33b43e703197e6c3ad7c00f479d1aeacaccc5bed603c5845a6384",
+        "bytes": 114012,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/df6a651c086324b591d509ae9610b034.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图002.png",
+        "sha256": "060f12ab95da70c6192928800e6cd35ef5fd73c332a96f549badb9100af4a78f",
+        "bytes": 145567,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/3fcc732859c02d6e607d4aee14cdc20e.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图003.png",
+        "sha256": "b78e3629d9a000d8d9cc2e4c91c028676bb721cfc5a31b9889ce91a47a785bce",
+        "bytes": 254105,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/7de8ffd524644198c591aa1d6ce5ae22.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图004.png",
+        "sha256": "7f59e24f9c0826c483b93c4c238a019439a3fec2dc02a3fb3859e4d2b01fce2a",
+        "bytes": 193320,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/c9f236aaffc62d39b1a3f1f631297bf3.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图005.png",
+        "sha256": "eca8c2297dc6260cad34ad161d6499d4341db0bae7fda892d2e8f2a4b14ef51a",
+        "bytes": 458862,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/ce29a506d3ce26bda6101e767f6c0d52.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图006.png",
+        "sha256": "463cdd092af02c43389b51ffe57fe9011ee6f5cc2f495b99c915c8523aa3f01f",
+        "bytes": 65254,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/none/585c165ddae97e739806cf2d9fa9980c.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图007.png",
+        "sha256": "233ddd728751cb2db4a2bfbd0438555300043218434c58fd65f032c50473930a",
+        "bytes": 98952,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/none/168167f2d1318de8cd7e9e0d2c653593.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图011.png",
+        "sha256": "4ac1211f95ead1f5a0ab930af90fb0ca8d7cd0af73cb37e0ee30b5aa77df8ec9",
+        "bytes": 5811,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/bae72a5fc017c28e6b42906a76b6c636.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图012.png",
+        "sha256": "6b2ec281cb7c24f262b0d2e9832b8bc57702652e7215554cf202259db21a14a7",
+        "bytes": 83032,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/644822e1e1032699e4bc735c306a5ef3.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图015.png",
+        "sha256": "eda68fcf14284b1100f34974b3037bd0c877b61599f03dc9698ad754edaaeb90",
+        "bytes": 18913,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/5a39847bfb2b4193dd0a431e7f69e78f.png",
+        "path": "下载文件/03_官方资料/16_Mind_常见问题/图017.png",
+        "sha256": "1a714a02545a828cfd5703ca994f33b4b66fcde140f732b8ded4392c3849b023",
+        "bytes": 4579,
+        "kind": "image",
+        "name": "Mind+常见问题配图"
+      }
+    ]
+  },
+  {
+    "url": "https://mindplus.dfrobot.com.cn/yulan",
+    "name": "Mind+功能预览",
+    "path": "下载文件/03_官方资料/17_Mind_功能预览/原始网页.html",
+    "reader": "下载文件/03_官方资料/17_Mind_功能预览/本地阅读.html",
+    "sha256": "c495fcd77ba071f3f463699182b619c9f786d31dcfdf531aeb2e4e9ec8c2179d",
+    "bytes": 68505,
+    "kind": "webpage",
+    "assets": [
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/02fa723fcecd54db2f1248ccfea74d32.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图000.png",
+        "sha256": "b1d30ae073775e39441e54604c09d73c871fc067547fad4b69dec73e130ea3ba",
+        "bytes": 4559,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/23862c64ed1e5b3b11ffd82789aa4f80.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图005.png",
+        "sha256": "16b86ed43fa388faf4d1f430b1dcac63e78b31ef3ac94962f72017a99de995e5",
+        "bytes": 26054,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/851c65d2b9c7220204a05bbc49cc571c.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图006.png",
+        "sha256": "3da600f57e7c1f74df0fae2b3f0adb2f1fb68647ad0cd4e3767bb5a5c50e2946",
+        "bytes": 5372,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/6f692752838b40197bef295d250be521.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图007.png",
+        "sha256": "ec94211d010cdf1e4cd79ee8ae999e2738335f13f0993e55244f68ec9096da07",
+        "bytes": 129772,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/7ba6916537a0807e0876f4a38b027b3f.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图008.png",
+        "sha256": "0e6b519bf9f5eb5227ba4605e0fb7ad6e03002181380f629e82b1945d4adb23e",
+        "bytes": 5276,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/2239f904e7e74d5ee27223e5c8a7b2de.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图009.png",
+        "sha256": "e947d54f032d779a5147c48be612833316693922ce8cefd842972732df65aaee",
+        "bytes": 289543,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/48108eb1bd74438bacf852d758354534.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图010.png",
+        "sha256": "90f866670e79dba542601d25ac03776524d77b082664381dc933719253cb2c92",
+        "bytes": 315351,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/46bf600c50883602bd82e781c8e1dbe7.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图011.png",
+        "sha256": "5ec23c2d1fa9b049f7dec2486e3afacfea08c6154e56cdecd04b18ca7ea1c4f9",
+        "bytes": 248955,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/8b4b131193b2f35da358e6efd45d0bc3.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图012.png",
+        "sha256": "941e990f04116940b80ea3d60fb10e639e583e10c9c7c5947c2f5583b0decae6",
+        "bytes": 154037,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/357b03a579950870caff35c8cc8502b2.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图013.png",
+        "sha256": "773c44583dc930443fad1a0c610b27d1ebb87ddfcc86aa66cff3a68f2e3edee8",
+        "bytes": 223218,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/62ce565e00c42467346e548f205d7793.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图014.png",
+        "sha256": "f878f1e0b96fc64af4a3e87605f14279ba0c16b18e0a58cd6b67c5da1d6d6ffe",
+        "bytes": 311714,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/584b39a14404ea93728f4d5f225277bf.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图015.png",
+        "sha256": "7ce90a758f95fc4294df485f80db7ac4d302e2cea4ad4a76423eb33bd8dd6edb",
+        "bytes": 188671,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      },
+      {
+        "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/7ba15cfc0123522c28bf487360cad673.png",
+        "path": "下载文件/03_官方资料/17_Mind_功能预览/图016.png",
+        "sha256": "3757f532617a8f7d43c481bd79626c9b72aa6a822d44037d2e6c7f098dce5a3c",
+        "bytes": 648630,
+        "kind": "image",
+        "name": "Mind+功能预览配图"
+      }
+    ]
+  },
+  {
+    "url": "https://microbit.org/teach/lessons/developing-ai-literacy-with-the-microbit/",
+    "name": "micro:bit AI素养课程",
+    "path": "下载文件/03_官方资料/18_micro_bit_AI素养课程/原始网页.html",
+    "reader": "下载文件/03_官方资料/18_micro_bit_AI素养课程/本地阅读.html",
+    "sha256": "f4df69630c7c90fca518c39340434c8e1345e424b9f5dad181f383525ca12cba",
+    "bytes": 404306,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://docs.dify.ai/en/self-host/deploy/configuration/environments",
+    "name": "环境参数",
+    "path": "下载文件/03_官方资料/19_环境参数/原始网页.html",
+    "reader": "下载文件/03_官方资料/19_环境参数/本地阅读.html",
+    "sha256": "cad89a77aaa6f0d10a449f486c1fabea4f192f98b23e10dbca3b083c94aa060b",
+    "bytes": 1261326,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/model-studio/rate-limit",
+    "name": "百炼限流",
+    "path": "下载文件/03_官方资料/20_百炼限流/原始网页.html",
+    "reader": "下载文件/03_官方资料/20_百炼限流/本地阅读.html",
+    "sha256": "f09d5c586c06bd7d68e6227be350356405e4306b34749167ffe9865c1d01c2eb",
+    "bytes": 681730,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://docs.dify.ai/en/self-host/use-dify/nodes/start",
+    "name": "输入节点",
+    "path": "下载文件/03_官方资料/21_输入节点/原始网页.html",
+    "reader": "下载文件/03_官方资料/21_输入节点/本地阅读.html",
+    "sha256": "6cb407366eeeb8dc9a9884b2434407613eeddf5cc1549f010b8fb4ce48551095",
+    "bytes": 307246,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://docs.dify.ai/en/self-host/use-dify/nodes/llm",
+    "name": "模型节点",
+    "path": "下载文件/03_官方资料/22_模型节点/原始网页.html",
+    "reader": "下载文件/03_官方资料/22_模型节点/本地阅读.html",
+    "sha256": "13faaf42891d9a834687363c56a21a43f9b92ea6b9045b5e9ab7d10ff6138068",
+    "bytes": 396256,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://docs.dify.ai/en/self-host/use-dify/nodes/knowledge-retrieval",
+    "name": "知识检索",
+    "path": "下载文件/03_官方资料/23_知识检索/原始网页.html",
+    "reader": "下载文件/03_官方资料/23_知识检索/本地阅读.html",
+    "sha256": "f5587448b90009096a7b197af706ed1283084537cb143933ceec50a611de91b4",
+    "bytes": 350281,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://docs.dify.ai/en/self-host/use-dify/knowledge/create-knowledge/setting-indexing-methods",
+    "name": "索引方式",
+    "path": "下载文件/03_官方资料/24_索引方式/原始网页.html",
+    "reader": "下载文件/03_官方资料/24_索引方式/本地阅读.html",
+    "sha256": "e0d27a2448cfb29505e0253501713091d0ea41d979b27083b68c3f76dfebeae1",
+    "bytes": 371940,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://docs.dify.ai/en/self-host/use-dify/nodes/ifelse",
+    "name": "条件分支",
+    "path": "下载文件/03_官方资料/25_条件分支/原始网页.html",
+    "reader": "下载文件/03_官方资料/25_条件分支/本地阅读.html",
+    "sha256": "a847365e846d30c661e6144175a981f79fc2bf4dedad0b28737e12f0e66fd3f7",
+    "bytes": 324159,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://www.moe.gov.cn/srcsite/A29/202510/t20251029_1418393.html",
+    "name": "2025—2028学年竞赛通知",
+    "path": "下载文件/03_官方资料/26_2025_2028学年竞赛通知/原始网页.html",
+    "reader": "下载文件/03_官方资料/26_2025_2028学年竞赛通知/本地阅读.html",
+    "sha256": "a017eb7a022695438d5fe627ef54def0fd71bd0675559037d56e3ae9e66b4451",
+    "bytes": 16517,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://match.dfrobot.com.cn/contest/2026qcsgonggong/",
+    "name": "2026公共赛区说明",
+    "path": "下载文件/03_官方资料/27_2026公共赛区说明/原始网页.html",
+    "reader": "下载文件/03_官方资料/27_2026公共赛区说明/本地阅读.html",
+    "sha256": "040ab403b8717595dde8d5927db9aa1bbc82891a85675450ab4e45c9d49185c2",
+    "bytes": 43549,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://support.microbit.org/support/solutions/articles/19000089574-micro-bit-does-not-connect-in-windows",
+    "name": "microbit_Windows连接",
+    "path": "下载文件/03_官方资料/28_microbit_Windows连接/原始网页.html",
+    "reader": "下载文件/03_官方资料/28_microbit_Windows连接/本地阅读.html",
+    "sha256": "0a2d20736efc9bfb9eaf3fefd7cac36d44e57a5b03402e05fa303dc6b4d97bbe",
+    "bytes": 25106,
+    "kind": "webpage",
+    "assets": []
+  },
+  {
+    "url": "https://tech.microbit.org/hardware/powersupply/",
+    "name": "microbit_供电说明",
+    "path": "下载文件/03_官方资料/29_microbit_供电说明/原始网页.html",
+    "reader": "下载文件/03_官方资料/29_microbit_供电说明/本地阅读.html",
+    "sha256": "58fff164da33d037ff415a33730c9070fc9b0d9e5292f7b3afeb898141ac4174",
+    "bytes": 23676,
+    "kind": "webpage",
+    "assets": []
+  }
+]

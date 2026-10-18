@@ -1,0 +1,1915 @@
+{
+  "page0": {
+    "targets": [
+      {
+        "isStage": true,
+        "name": "Stage",
+        "variables": {
+          "var_运行": [
+            "运行",
+            0
+          ],
+          "var_就绪": [
+            "就绪",
+            0
+          ],
+          "var_当前标签": [
+            "当前标签",
+            "background"
+          ]
+        },
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 0,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null
+      },
+      {
+        "isStage": false,
+        "name": "课程程序",
+        "variables": {},
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {
+          "b1": {
+            "opcode": "data_setvariableto",
+            "next": "b2",
+            "parent": "b8",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b2": {
+            "opcode": "data_setvariableto",
+            "next": "b3",
+            "parent": "b1",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "就绪",
+                "var_就绪"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b3": {
+            "opcode": "data_setvariableto",
+            "next": "b4",
+            "parent": "b2",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b4": {
+            "opcode": "machinelearning.pictureaiVideoContainer",
+            "next": "b5",
+            "parent": "b3",
+            "inputs": {},
+            "fields": {
+              "CON": [
+                "popup",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b5": {
+            "opcode": "machinelearning.videoToggle",
+            "next": "b6",
+            "parent": "b4",
+            "inputs": {},
+            "fields": {
+              "VIDEO_STATE": [
+                "on",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b6": {
+            "opcode": "control_wait",
+            "next": "b7",
+            "parent": "b5",
+            "inputs": {
+              "DURATION": [
+                1,
+                [
+                  4,
+                  "5"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b7": {
+            "opcode": "machinelearning.initKNNImageClass",
+            "next": null,
+            "parent": "b6",
+            "inputs": {},
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b8": {
+            "opcode": "event_whenflagclicked",
+            "next": "b1",
+            "parent": null,
+            "inputs": {},
+            "fields": {},
+            "shadow": false,
+            "topLevel": true,
+            "x": 30,
+            "y": 30
+          },
+          "b9": {
+            "opcode": "data_setvariableto",
+            "next": "b10",
+            "parent": "b14",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b10": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b11",
+            "parent": "b9",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "off",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b11": {
+            "opcode": "data_setvariableto",
+            "next": "b12",
+            "parent": "b10",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b12": {
+            "opcode": "data_setvariableto",
+            "next": "b13",
+            "parent": "b11",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "就绪",
+                "var_就绪"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b13": {
+            "opcode": "machinelearning.imageClassificationFromCamera",
+            "next": null,
+            "parent": "b12",
+            "inputs": {
+              "TEXT": [
+                1,
+                [
+                  10,
+                  "glue"
+                ]
+              ]
+            },
+            "fields": {
+              "TOGGLE": [
+                "on",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b14": {
+            "opcode": "event_whenkeypressed",
+            "next": "b9",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "1",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 400,
+            "y": 30
+          },
+          "b15": {
+            "opcode": "data_setvariableto",
+            "next": "b16",
+            "parent": "b20",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b16": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b17",
+            "parent": "b15",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "off",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b17": {
+            "opcode": "data_setvariableto",
+            "next": "b18",
+            "parent": "b16",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b18": {
+            "opcode": "data_setvariableto",
+            "next": "b19",
+            "parent": "b17",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "就绪",
+                "var_就绪"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b19": {
+            "opcode": "machinelearning.imageClassificationFromCamera",
+            "next": null,
+            "parent": "b18",
+            "inputs": {
+              "TEXT": [
+                1,
+                [
+                  10,
+                  "eraser"
+                ]
+              ]
+            },
+            "fields": {
+              "TOGGLE": [
+                "on",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b20": {
+            "opcode": "event_whenkeypressed",
+            "next": "b15",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "2",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 730,
+            "y": 30
+          },
+          "b21": {
+            "opcode": "data_setvariableto",
+            "next": "b22",
+            "parent": "b26",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b22": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b23",
+            "parent": "b21",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "off",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b23": {
+            "opcode": "data_setvariableto",
+            "next": "b24",
+            "parent": "b22",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b24": {
+            "opcode": "data_setvariableto",
+            "next": "b25",
+            "parent": "b23",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "就绪",
+                "var_就绪"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b25": {
+            "opcode": "machinelearning.imageClassificationFromCamera",
+            "next": null,
+            "parent": "b24",
+            "inputs": {
+              "TEXT": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "TOGGLE": [
+                "on",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b26": {
+            "opcode": "event_whenkeypressed",
+            "next": "b21",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "3",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 1060,
+            "y": 30
+          },
+          "b27": {
+            "opcode": "pictureai_dir_setting",
+            "next": null,
+            "parent": "b28",
+            "inputs": {},
+            "fields": {
+              "pictureai_dir": [
+                "{\"imgAddr\": \"\"}",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b28": {
+            "opcode": "machinelearning.imageClassificationFromDir",
+            "next": "b30",
+            "parent": "b36",
+            "inputs": {
+              "DIR": [
+                1,
+                "b27"
+              ],
+              "TEXT": [
+                1,
+                [
+                  10,
+                  "glue"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b29": {
+            "opcode": "pictureai_dir_setting",
+            "next": null,
+            "parent": "b30",
+            "inputs": {},
+            "fields": {
+              "pictureai_dir": [
+                "{\"imgAddr\": \"\"}",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b30": {
+            "opcode": "machinelearning.imageClassificationFromDir",
+            "next": "b32",
+            "parent": "b28",
+            "inputs": {
+              "DIR": [
+                1,
+                "b29"
+              ],
+              "TEXT": [
+                1,
+                [
+                  10,
+                  "eraser"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b31": {
+            "opcode": "pictureai_dir_setting",
+            "next": null,
+            "parent": "b32",
+            "inputs": {},
+            "fields": {
+              "pictureai_dir": [
+                "{\"imgAddr\": \"\"}",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b32": {
+            "opcode": "machinelearning.imageClassificationFromDir",
+            "next": null,
+            "parent": "b30",
+            "inputs": {
+              "DIR": [
+                1,
+                "b31"
+              ],
+              "TEXT": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b33": {
+            "opcode": "data_setvariableto",
+            "next": "b34",
+            "parent": "b37",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b34": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b35",
+            "parent": "b33",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "off",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b35": {
+            "opcode": "data_setvariableto",
+            "next": "b36",
+            "parent": "b34",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b36": {
+            "opcode": "data_setvariableto",
+            "next": "b28",
+            "parent": "b35",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "就绪",
+                "var_就绪"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b37": {
+            "opcode": "event_whenkeypressed",
+            "next": "b33",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "f",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 30,
+            "y": 500
+          },
+          "b38": {
+            "opcode": "data_setvariableto",
+            "next": "b39",
+            "parent": "b45",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b39": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b40",
+            "parent": "b38",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "off",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b40": {
+            "opcode": "data_setvariableto",
+            "next": "b41",
+            "parent": "b39",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b41": {
+            "opcode": "machinelearning.startKNNTrain",
+            "next": "b42",
+            "parent": "b40",
+            "inputs": {},
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b42": {
+            "opcode": "data_setvariableto",
+            "next": "b43",
+            "parent": "b41",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "1"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "就绪",
+                "var_就绪"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b43": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b44",
+            "parent": "b42",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "on",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b44": {
+            "opcode": "data_setvariableto",
+            "next": null,
+            "parent": "b43",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "1"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b45": {
+            "opcode": "event_whenkeypressed",
+            "next": "b38",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "t",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 400,
+            "y": 500
+          },
+          "b46": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b47",
+            "parent": "b49",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "on",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b47": {
+            "opcode": "data_setvariableto",
+            "next": null,
+            "parent": "b46",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "1"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b48": {
+            "opcode": "operator_equals",
+            "next": null,
+            "parent": "b49",
+            "inputs": {
+              "OPERAND1": [
+                3,
+                [
+                  12,
+                  "就绪",
+                  "var_就绪"
+                ],
+                [
+                  10,
+                  ""
+                ]
+              ],
+              "OPERAND2": [
+                1,
+                [
+                  4,
+                  "1"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b49": {
+            "opcode": "control_if",
+            "next": null,
+            "parent": "b50",
+            "inputs": {
+              "CONDITION": [
+                2,
+                "b48"
+              ],
+              "SUBSTACK": [
+                2,
+                "b46"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b50": {
+            "opcode": "event_whenkeypressed",
+            "next": "b49",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "s",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 750,
+            "y": 500
+          },
+          "b51": {
+            "opcode": "data_setvariableto",
+            "next": "b52",
+            "parent": "b56",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b52": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b53",
+            "parent": "b51",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "off",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b53": {
+            "opcode": "data_setvariableto",
+            "next": "b55",
+            "parent": "b52",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b54": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b55",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0000000000111110000000000",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b55": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b53",
+            "inputs": {
+              "PIC": [
+                1,
+                "b54"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b56": {
+            "opcode": "event_whenkeypressed",
+            "next": "b51",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "p",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 1050,
+            "y": 500
+          },
+          "b57": {
+            "opcode": "data_setvariableto",
+            "next": "b58",
+            "parent": "b62",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b58": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b59",
+            "parent": "b57",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "off",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b59": {
+            "opcode": "data_setvariableto",
+            "next": "b61",
+            "parent": "b58",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b60": {
+            "opcode": "settings",
+            "next": null,
+            "parent": "b61",
+            "inputs": {},
+            "fields": {
+              "SETTINGS": [
+                "{\"savepath\": \"\"}",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b61": {
+            "opcode": "machinelearning.exportImageClassificationModel",
+            "next": null,
+            "parent": "b59",
+            "inputs": {
+              "PATH": [
+                1,
+                "b60"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b62": {
+            "opcode": "event_whenkeypressed",
+            "next": "b57",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "v",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 30,
+            "y": 950
+          },
+          "b63": {
+            "opcode": "data_setvariableto",
+            "next": "b64",
+            "parent": "b69",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "0"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "运行",
+                "var_运行"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b64": {
+            "opcode": "machinelearning.predictImageClass",
+            "next": "b65",
+            "parent": "b63",
+            "inputs": {},
+            "fields": {
+              "TOGGLE": [
+                "off",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b65": {
+            "opcode": "data_setvariableto",
+            "next": "b67",
+            "parent": "b64",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b66": {
+            "opcode": "settings",
+            "next": null,
+            "parent": "b67",
+            "inputs": {},
+            "fields": {
+              "SETTINGS": [
+                "{\"loadpath\": \"\"}",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b67": {
+            "opcode": "machinelearning.loadImageClassificationModel",
+            "next": "b68",
+            "parent": "b65",
+            "inputs": {
+              "PATH": [
+                1,
+                "b66"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b68": {
+            "opcode": "data_setvariableto",
+            "next": null,
+            "parent": "b67",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  4,
+                  "1"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "就绪",
+                "var_就绪"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b69": {
+            "opcode": "event_whenkeypressed",
+            "next": "b63",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "l",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 400,
+            "y": 950
+          },
+          "b70": {
+            "opcode": "machinelearning.getImageClassification",
+            "next": null,
+            "parent": "b71",
+            "inputs": {},
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b71": {
+            "opcode": "data_setvariableto",
+            "next": "b81",
+            "parent": "b85",
+            "inputs": {
+              "VALUE": [
+                3,
+                "b70",
+                [
+                  10,
+                  ""
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b72": {
+            "opcode": "operator_equals",
+            "next": null,
+            "parent": "b81",
+            "inputs": {
+              "OPERAND1": [
+                3,
+                [
+                  12,
+                  "当前标签",
+                  "var_当前标签"
+                ],
+                [
+                  10,
+                  ""
+                ]
+              ],
+              "OPERAND2": [
+                1,
+                [
+                  10,
+                  "glue"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b73": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b74",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0010001000111110100000100",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b74": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b81",
+            "inputs": {
+              "PIC": [
+                1,
+                "b73"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b75": {
+            "opcode": "operator_equals",
+            "next": null,
+            "parent": "b80",
+            "inputs": {
+              "OPERAND1": [
+                3,
+                [
+                  12,
+                  "当前标签",
+                  "var_当前标签"
+                ],
+                [
+                  10,
+                  ""
+                ]
+              ],
+              "OPERAND2": [
+                1,
+                [
+                  10,
+                  "eraser"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b76": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b77",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0010000010111110001000100",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b77": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b80",
+            "inputs": {
+              "PIC": [
+                1,
+                "b76"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b78": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b79",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0000000000111110000000000",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b79": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b80",
+            "inputs": {
+              "PIC": [
+                1,
+                "b78"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b80": {
+            "opcode": "control_if_else",
+            "next": null,
+            "parent": "b81",
+            "inputs": {
+              "CONDITION": [
+                2,
+                "b75"
+              ],
+              "SUBSTACK": [
+                2,
+                "b77"
+              ],
+              "SUBSTACK2": [
+                2,
+                "b79"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b81": {
+            "opcode": "control_if_else",
+            "next": null,
+            "parent": "b71",
+            "inputs": {
+              "CONDITION": [
+                2,
+                "b72"
+              ],
+              "SUBSTACK": [
+                2,
+                "b74"
+              ],
+              "SUBSTACK2": [
+                2,
+                "b80"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b82": {
+            "opcode": "operator_equals",
+            "next": null,
+            "parent": "b85",
+            "inputs": {
+              "OPERAND1": [
+                3,
+                [
+                  12,
+                  "运行",
+                  "var_运行"
+                ],
+                [
+                  10,
+                  ""
+                ]
+              ],
+              "OPERAND2": [
+                1,
+                [
+                  4,
+                  "1"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b83": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b84",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0000000000111110000000000",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b84": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b85",
+            "inputs": {
+              "PIC": [
+                1,
+                "b83"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b85": {
+            "opcode": "control_if_else",
+            "next": "b86",
+            "parent": "b87",
+            "inputs": {
+              "CONDITION": [
+                2,
+                "b82"
+              ],
+              "SUBSTACK": [
+                2,
+                "b71"
+              ],
+              "SUBSTACK2": [
+                2,
+                "b84"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b86": {
+            "opcode": "control_wait",
+            "next": null,
+            "parent": "b85",
+            "inputs": {
+              "DURATION": [
+                1,
+                [
+                  4,
+                  "0.2"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b87": {
+            "opcode": "control_forever",
+            "next": null,
+            "parent": "b88",
+            "inputs": {
+              "SUBSTACK": [
+                2,
+                "b85"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b88": {
+            "opcode": "event_whenflagclicked",
+            "next": "b87",
+            "parent": null,
+            "inputs": {},
+            "fields": {},
+            "shadow": false,
+            "topLevel": true,
+            "x": 750,
+            "y": 950
+          }
+        },
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 1,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null,
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "size": 100,
+        "direction": 90,
+        "draggable": false,
+        "rotationStyle": "all around"
+      }
+    ],
+    "monitors": [
+      {
+        "id": "var_当前标签",
+        "mode": "default",
+        "opcode": "data_variable",
+        "params": {
+          "VARIABLE": "当前标签"
+        },
+        "spriteName": null,
+        "value": "background",
+        "width": 0,
+        "height": 0,
+        "x": 10,
+        "y": 10,
+        "visible": true,
+        "sliderMin": 0,
+        "sliderMax": 100,
+        "isDiscrete": true
+      }
+    ],
+    "thirdExtensions": [],
+    "extensions": [
+      "machinelearning",
+      "microbit"
+    ],
+    "version": "1.8.1",
+    "versionTimestamp": "202506121900",
+    "meta": {
+      "semver": "3.0.0",
+      "vm": "0.1.0",
+      "agent": "AI Workshop curriculum"
+    },
+    "pageInfo": {
+      "page": 0,
+      "codeLanguage": "javascript"
+    }
+  },
+  "pageIndex": 0,
+  "page1": {
+    "targets": [
+      {
+        "isStage": true,
+        "name": "Stage",
+        "variables": {
+          "var_运行": [
+            "运行",
+            0
+          ],
+          "var_就绪": [
+            "就绪",
+            0
+          ],
+          "var_当前标签": [
+            "当前标签",
+            "background"
+          ]
+        },
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 0,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null
+      },
+      {
+        "isStage": false,
+        "name": "课程程序",
+        "variables": {},
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 1,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null,
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "size": 100,
+        "direction": 90,
+        "draggable": false,
+        "rotationStyle": "all around"
+      }
+    ],
+    "monitors": [],
+    "thirdExtensions": [],
+    "extensions": [],
+    "version": "1.8.1",
+    "versionTimestamp": "202506121900",
+    "meta": {
+      "semver": "3.0.0",
+      "vm": "0.1.0",
+      "agent": "AI Workshop curriculum"
+    },
+    "pageInfo": {
+      "page": 1,
+      "codeLanguage": "cpp",
+      "writeCode": ""
+    }
+  },
+  "page2": {
+    "targets": [
+      {
+        "isStage": true,
+        "name": "Stage",
+        "variables": {
+          "var_运行": [
+            "运行",
+            0
+          ],
+          "var_就绪": [
+            "就绪",
+            0
+          ],
+          "var_当前标签": [
+            "当前标签",
+            "background"
+          ]
+        },
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 0,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null
+      },
+      {
+        "isStage": false,
+        "name": "课程程序",
+        "variables": {},
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 1,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null,
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "size": 100,
+        "direction": 90,
+        "draggable": false,
+        "rotationStyle": "all around"
+      }
+    ],
+    "monitors": [],
+    "thirdExtensions": [],
+    "extensions": [],
+    "version": "1.8.1",
+    "versionTimestamp": "202506121900",
+    "meta": {
+      "semver": "3.0.0",
+      "vm": "0.1.0",
+      "agent": "AI Workshop curriculum"
+    },
+    "pageInfo": {
+      "page": 2,
+      "codeLanguage": "python",
+      "writeCode": ""
+    }
+  }
+}

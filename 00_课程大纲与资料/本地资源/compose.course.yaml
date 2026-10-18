@@ -1,0 +1,22 @@
+# Merge after Dify 1.17.1's official docker-compose.yaml.
+# The course uses Chatflow; Agent V2 services are not required.
+services:
+  api:
+    depends_on:
+      agent_backend:
+        required: false
+  worker:
+    depends_on:
+      agent_backend:
+        required: false
+  plugin_daemon:
+    volumes:
+      - ./course-wheels:/opt/course-wheels:ro
+    ports: !override
+      - "127.0.0.1:15003:5003"
+  agent_backend:
+    profiles: [optional-agent]
+  agent_ssrf_proxy:
+    profiles: [optional-agent]
+  local_sandbox:
+    profiles: [optional-agent]

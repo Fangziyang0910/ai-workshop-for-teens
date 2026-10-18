@@ -1,0 +1,10 @@
+# Official installers, cached manuals and container images are indexed by SHA-256.
+00_课程大纲与资料/本地资源/下载文件/
+00_课程大纲与资料/本地资源/运行目录/
+.env
+.env.*
+!.env.example
+*.part
+__pycache__/
+*.pyc
+.DS_Store

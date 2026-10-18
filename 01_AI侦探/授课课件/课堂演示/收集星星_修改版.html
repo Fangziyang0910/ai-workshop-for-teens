@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>收集星星 修改版</title><style>
+*{box-sizing:border-box}body{margin:0;background:#0d2844;color:#fff;font-family:'Noto Sans CJK SC','Microsoft YaHei',sans-serif}main{width:1100px;margin:35px auto}h1{font-size:36px;margin:0 0 12px}p{font-size:22px;margin:0 0 20px;color:#dce5ed}#field{position:relative;width:1100px;height:390px;background:#f1f3f5;border:3px solid #efb125;overflow:hidden}#player{position:absolute;width:36px;height:36px;background:#23679a;border:3px solid #102d48}#star{position:absolute;width:40px;height:40px;font-size:34px;line-height:40px;color:#c88400}footer{display:flex;align-items:center;gap:24px;margin-top:20px;font-size:25px}button{font:inherit;padding:8px 18px;background:#efb125;color:#102d48;border:0;cursor:pointer}button:focus-visible{outline:3px solid white}#status{font-size:20px;color:#dce5ed;margin-top:20px}</style>
+<main><h1>收集星星　修改版</h1><p>方向键移动。碰到星星加 1 分。也可以用按钮比较移动距离。</p><div id="field" aria-label="游戏区域"><div id="player" aria-label="蓝色角色"></div><div id="star" aria-label="星星">★</div></div><footer><span id="score">分数：0</span><button id="restart">重新开始</button><button id="test">向右移动 2 秒</button></footer><div id="status" aria-live="polite">准备就绪</div></main><script>
+const SPEED = 120;
+const player=document.querySelector('#player'),star=document.querySelector('#star'),scoreEl=document.querySelector('#score'),status=document.querySelector('#status');
+let x=64,y=170,sx=270,sy=170,score=0,last=0,auto=0;const keys=new Set();
+function draw(){player.style.left=x+'px';player.style.top=y+'px';star.style.left=sx+'px';star.style.top=sy+'px';scoreEl.textContent='分数：'+score;}
+function reset(){x=64;y=170;sx=270;sy=170;score=0;auto=0;keys.clear();status.textContent='准备就绪';draw();}
+document.querySelector('#restart').onclick=reset;document.querySelector('#test').onclick=()=>{reset();auto=2000;status.textContent='正在向右移动 2 秒';};
+addEventListener('keydown',e=>{if(e.key.startsWith('Arrow')){e.preventDefault();keys.add(e.key);}});addEventListener('keyup',e=>keys.delete(e.key));addEventListener('blur',()=>keys.clear());
+function loop(t){const dt=Math.min(t-last,50);last=t;let dx=0,dy=0;if(auto>0){const step=Math.min(dt,auto);dx=SPEED*step/1000;auto-=step;if(auto<=0)status.textContent='移动结束，可以比较角色的位置。';}else{dx=(Number(keys.has('ArrowRight'))-Number(keys.has('ArrowLeft')))*SPEED*dt/1000;dy=(Number(keys.has('ArrowDown'))-Number(keys.has('ArrowUp')))*SPEED*dt/1000;}x=Math.max(0,Math.min(1058,x+dx));y=Math.max(0,Math.min(348,y+dy));if(Math.abs(x-sx)<32&&Math.abs(y-sy)<32){score++;sx=sx===270?820:270;sy=sy===170?65:170;}draw();requestAnimationFrame(loop);}requestAnimationFrame(loop);
+window.gameState=()=>({x,y,score,auto,speed:SPEED});
+</script></html>

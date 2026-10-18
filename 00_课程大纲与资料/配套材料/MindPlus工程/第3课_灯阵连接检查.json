@@ -1,0 +1,646 @@
+{
+  "page0": {
+    "targets": [
+      {
+        "isStage": true,
+        "name": "Stage",
+        "variables": {
+          "var_运行": [
+            "运行",
+            0
+          ],
+          "var_就绪": [
+            "就绪",
+            0
+          ],
+          "var_当前标签": [
+            "当前标签",
+            "background"
+          ]
+        },
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 0,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null
+      },
+      {
+        "isStage": false,
+        "name": "课程程序",
+        "variables": {},
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {
+          "b1": {
+            "opcode": "data_setvariableto",
+            "next": "b3",
+            "parent": "b4",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b2": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b3",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0000000000111110000000000",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b3": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b1",
+            "inputs": {
+              "PIC": [
+                1,
+                "b2"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b4": {
+            "opcode": "event_whenflagclicked",
+            "next": "b1",
+            "parent": null,
+            "inputs": {},
+            "fields": {},
+            "shadow": false,
+            "topLevel": true,
+            "x": 30,
+            "y": 30
+          },
+          "b5": {
+            "opcode": "data_setvariableto",
+            "next": "b7",
+            "parent": "b8",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "glue"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b6": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b7",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0010001000111110100000100",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b7": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b5",
+            "inputs": {
+              "PIC": [
+                1,
+                "b6"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b8": {
+            "opcode": "event_whenkeypressed",
+            "next": "b5",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "1",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 30,
+            "y": 250
+          },
+          "b9": {
+            "opcode": "data_setvariableto",
+            "next": "b11",
+            "parent": "b12",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "eraser"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b10": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b11",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0010000010111110001000100",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b11": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b9",
+            "inputs": {
+              "PIC": [
+                1,
+                "b10"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b12": {
+            "opcode": "event_whenkeypressed",
+            "next": "b9",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "2",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 380,
+            "y": 250
+          },
+          "b13": {
+            "opcode": "data_setvariableto",
+            "next": "b15",
+            "parent": "b16",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b14": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b15",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0000000000111110000000000",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b15": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b13",
+            "inputs": {
+              "PIC": [
+                1,
+                "b14"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b16": {
+            "opcode": "event_whenkeypressed",
+            "next": "b13",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "3",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 730,
+            "y": 250
+          },
+          "b17": {
+            "opcode": "data_setvariableto",
+            "next": "b19",
+            "parent": "b20",
+            "inputs": {
+              "VALUE": [
+                1,
+                [
+                  10,
+                  "background"
+                ]
+              ]
+            },
+            "fields": {
+              "VARIABLE": [
+                "当前标签",
+                "var_当前标签"
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "b18": {
+            "opcode": "matrix_icons",
+            "next": null,
+            "parent": "b19",
+            "inputs": {},
+            "fields": {
+              "MATRIX": [
+                "0000000000111110000000000",
+                null
+              ]
+            },
+            "shadow": true,
+            "topLevel": false
+          },
+          "b19": {
+            "opcode": "microbit.microbitShowFont",
+            "next": null,
+            "parent": "b17",
+            "inputs": {
+              "PIC": [
+                1,
+                "b18"
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+          },
+          "b20": {
+            "opcode": "event_whenkeypressed",
+            "next": "b17",
+            "parent": null,
+            "inputs": {},
+            "fields": {
+              "KEY_OPTION": [
+                "p",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": true,
+            "x": 30,
+            "y": 500
+          }
+        },
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 1,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null,
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "size": 100,
+        "direction": 90,
+        "draggable": false,
+        "rotationStyle": "all around"
+      }
+    ],
+    "monitors": [
+      {
+        "id": "var_当前标签",
+        "mode": "default",
+        "opcode": "data_variable",
+        "params": {
+          "VARIABLE": "当前标签"
+        },
+        "spriteName": null,
+        "value": "background",
+        "width": 0,
+        "height": 0,
+        "x": 10,
+        "y": 10,
+        "visible": true,
+        "sliderMin": 0,
+        "sliderMax": 100,
+        "isDiscrete": true
+      }
+    ],
+    "thirdExtensions": [],
+    "extensions": [
+      "microbit"
+    ],
+    "version": "1.8.1",
+    "versionTimestamp": "202506121900",
+    "meta": {
+      "semver": "3.0.0",
+      "vm": "0.1.0",
+      "agent": "AI Workshop curriculum"
+    },
+    "pageInfo": {
+      "page": 0,
+      "codeLanguage": "javascript"
+    }
+  },
+  "pageIndex": 0,
+  "page1": {
+    "targets": [
+      {
+        "isStage": true,
+        "name": "Stage",
+        "variables": {
+          "var_运行": [
+            "运行",
+            0
+          ],
+          "var_就绪": [
+            "就绪",
+            0
+          ],
+          "var_当前标签": [
+            "当前标签",
+            "background"
+          ]
+        },
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 0,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null
+      },
+      {
+        "isStage": false,
+        "name": "课程程序",
+        "variables": {},
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 1,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null,
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "size": 100,
+        "direction": 90,
+        "draggable": false,
+        "rotationStyle": "all around"
+      }
+    ],
+    "monitors": [],
+    "thirdExtensions": [],
+    "extensions": [],
+    "version": "1.8.1",
+    "versionTimestamp": "202506121900",
+    "meta": {
+      "semver": "3.0.0",
+      "vm": "0.1.0",
+      "agent": "AI Workshop curriculum"
+    },
+    "pageInfo": {
+      "page": 1,
+      "codeLanguage": "cpp",
+      "writeCode": ""
+    }
+  },
+  "page2": {
+    "targets": [
+      {
+        "isStage": true,
+        "name": "Stage",
+        "variables": {
+          "var_运行": [
+            "运行",
+            0
+          ],
+          "var_就绪": [
+            "就绪",
+            0
+          ],
+          "var_当前标签": [
+            "当前标签",
+            "background"
+          ]
+        },
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 0,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null
+      },
+      {
+        "isStage": false,
+        "name": "课程程序",
+        "variables": {},
+        "lists": {},
+        "mcvariables": {},
+        "strings": {},
+        "broadcasts": {},
+        "blocks": {},
+        "comments": {},
+        "currentCostume": 0,
+        "costumes": [
+          {
+            "assetId": "3ec904873bf7a111a0b8f2d7dc5c51a6",
+            "name": "课程背景",
+            "bitmapResolution": 1,
+            "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
+            "dataFormat": "svg",
+            "rotationCenterX": 240,
+            "rotationCenterY": 180
+          }
+        ],
+        "sounds": [],
+        "volume": 100,
+        "layerOrder": 1,
+        "tempo": 60,
+        "videoTransparency": 0,
+        "videoState": "off",
+        "textToSpeechLanguage": null,
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "size": 100,
+        "direction": 90,
+        "draggable": false,
+        "rotationStyle": "all around"
+      }
+    ],
+    "monitors": [],
+    "thirdExtensions": [],
+    "extensions": [],
+    "version": "1.8.1",
+    "versionTimestamp": "202506121900",
+    "meta": {
+      "semver": "3.0.0",
+      "vm": "0.1.0",
+      "agent": "AI Workshop curriculum"
+    },
+    "pageInfo": {
+      "page": 2,
+      "codeLanguage": "python",
+      "writeCode": ""
+    }
+  }
+}

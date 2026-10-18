@@ -1,0 +1,113 @@
+{
+  "platform": "linux/amd64",
+  "source_verification_date": "2026-10-18",
+  "images": [
+    {
+      "name": "busybox:latest",
+      "source": "docker.io/library/busybox@sha256:f97baa533a26513c453a362be331a43eb60214302f449c16571b23cea141dce4",
+      "digest": "sha256:f97baa533a26513c453a362be331a43eb60214302f449c16571b23cea141dce4",
+      "index_digest": "sha256:fd7dc98638c8e305f4dc34e979f1c0fdfdcaeb0fbf8fcff77ae834b6da3d7e6e",
+      "platform": "linux/amd64",
+      "image_id": "sha256:aaef90e065235eb0b2d9938be85d1b81add2902cf89affe2cdfa19be33476ac0",
+      "compressed_bytes": 2226163,
+      "download_cache": "m.daocloud.io/docker.io/library/busybox@sha256:f97baa533a26513c453a362be331a43eb60214302f449c16571b23cea141dce4"
+    },
+    {
+      "name": "cr.weaviate.io/semitechnologies/weaviate:1.39.2",
+      "source": "cr.weaviate.io/semitechnologies/weaviate@sha256:6bd82cbd943fc84d0c52d05e2708f17206109de91b70a21ca87c101a6ac13d29",
+      "digest": "sha256:6bd82cbd943fc84d0c52d05e2708f17206109de91b70a21ca87c101a6ac13d29",
+      "index_digest": "sha256:5c62e5cbce4c48fc770abcee71099d9de32aad3b44d12299611f8135ee412362",
+      "platform": "linux/amd64",
+      "image_id": "sha256:63b16b7783ae63f990f5b1388b2e77fe501407d4583732a50bf65ff4973f3c41",
+      "compressed_bytes": 90991396,
+      "download_cache": "m.daocloud.io/cr.weaviate.io/semitechnologies/weaviate@sha256:6bd82cbd943fc84d0c52d05e2708f17206109de91b70a21ca87c101a6ac13d29"
+    },
+    {
+      "name": "langgenius/dify-api:1.17.1",
+      "source": "docker.io/langgenius/dify-api@sha256:04f435a2e366c73f1ccefe9e7fbdaa2ac6440bdcde268d5d20f19c3ba7e7dcdb",
+      "digest": "sha256:04f435a2e366c73f1ccefe9e7fbdaa2ac6440bdcde268d5d20f19c3ba7e7dcdb",
+      "index_digest": "sha256:ceede5b903afaa20348f7ad80ebf847379dc56d886a99b9ec6a08913dacd7732",
+      "platform": "linux/amd64",
+      "image_id": "sha256:eff1dee166856207c52b1a97bed2476cbc3dd0689bf30a6e96c2e755b2bb4d48",
+      "compressed_bytes": 922033329,
+      "download_cache": "m.daocloud.io/docker.io/langgenius/dify-api@sha256:04f435a2e366c73f1ccefe9e7fbdaa2ac6440bdcde268d5d20f19c3ba7e7dcdb"
+    },
+    {
+      "name": "langgenius/dify-plugin-daemon:0.6.10-local",
+      "source": "docker.io/langgenius/dify-plugin-daemon@sha256:0b8f1f1e766826352d868aaf8c9eeeee8e37a3a3b023044ed8ab0d145f853cdf",
+      "digest": "sha256:0b8f1f1e766826352d868aaf8c9eeeee8e37a3a3b023044ed8ab0d145f853cdf",
+      "index_digest": "sha256:34412a22d1e1d1a6c73727fef88cffbcdd9be7a21bf9ad3076b4bf5c1b88fd9b",
+      "platform": "linux/amd64",
+      "image_id": "sha256:7b5516cf685ee2aa3eb2504677d2a7440d0670b74b566793882463c293f74cda",
+      "compressed_bytes": 599494338,
+      "download_cache": "m.daocloud.io/docker.io/langgenius/dify-plugin-daemon@sha256:0b8f1f1e766826352d868aaf8c9eeeee8e37a3a3b023044ed8ab0d145f853cdf"
+    },
+    {
+      "name": "langgenius/dify-sandbox:0.2.15",
+      "source": "docker.io/langgenius/dify-sandbox@sha256:942acde5b90350498f71c9f89fe1c0a578578c51521d6683783e073528b6a26a",
+      "digest": "sha256:942acde5b90350498f71c9f89fe1c0a578578c51521d6683783e073528b6a26a",
+      "index_digest": "sha256:750e1111426ef31a9217b81c98cccfb750f17b182af3221102e420afa9f0928e",
+      "platform": "linux/amd64",
+      "image_id": "sha256:4782db7ea946f2f4a42ad1016ea32ec764bbe1287dbb584eff8c741d63b953d9",
+      "compressed_bytes": 218747803,
+      "download_cache": "m.daocloud.io/docker.io/langgenius/dify-sandbox@sha256:942acde5b90350498f71c9f89fe1c0a578578c51521d6683783e073528b6a26a"
+    },
+    {
+      "name": "langgenius/dify-web:1.17.1",
+      "source": "docker.io/langgenius/dify-web@sha256:c4baeb297722671a23317b17d2af669f50b36f6239d1d976832a77b2057344e5",
+      "digest": "sha256:c4baeb297722671a23317b17d2af669f50b36f6239d1d976832a77b2057344e5",
+      "index_digest": "sha256:6353fe8e04481aaef873ef7317507bfa9ac862572118fd037563a71bff9f4d08",
+      "platform": "linux/amd64",
+      "image_id": "sha256:581dd38420dfed0602e54c1847270ed7c3df6bc07bfb000c1b426a1393d13799",
+      "compressed_bytes": 201472507,
+      "download_cache": "m.daocloud.io/docker.io/langgenius/dify-web@sha256:c4baeb297722671a23317b17d2af669f50b36f6239d1d976832a77b2057344e5"
+    },
+    {
+      "name": "nginx:latest",
+      "source": "docker.io/library/nginx@sha256:6c7972b94d62ce93357d1e0d0ef6d3db8a2e9b8b6f3234d943d60ecbc4f4eb31",
+      "digest": "sha256:6c7972b94d62ce93357d1e0d0ef6d3db8a2e9b8b6f3234d943d60ecbc4f4eb31",
+      "index_digest": "sha256:332d0beea97cff8c0d5d27976c0778a4b00345b9d74c2feaaf8efde548314948",
+      "platform": "linux/amd64",
+      "image_id": "sha256:ca5e66f340c769281edb187cf330c9246ab0cab9291bd1d6750dd356db26ab45",
+      "compressed_bytes": 63878241,
+      "download_cache": "m.daocloud.io/docker.io/library/nginx@sha256:6c7972b94d62ce93357d1e0d0ef6d3db8a2e9b8b6f3234d943d60ecbc4f4eb31"
+    },
+    {
+      "name": "postgres:15-alpine",
+      "source": "docker.io/library/postgres@sha256:25d430274d8a31184f9435cc5b2f56aff254952065bbbcac0c51acedb5a1d1e7",
+      "digest": "sha256:25d430274d8a31184f9435cc5b2f56aff254952065bbbcac0c51acedb5a1d1e7",
+      "index_digest": "sha256:f7d23353e1b15400d22ebe31189f4d314b87a4c129cc400c8c2d8d4ca127bf81",
+      "platform": "linux/amd64",
+      "image_id": "sha256:319d040b5d68e3e5b98a238f0b5d375b4b4d9c5b3a6a9afb0308a8bcf0de72a5",
+      "compressed_bytes": 115239240,
+      "download_cache": "m.daocloud.io/docker.io/library/postgres@sha256:25d430274d8a31184f9435cc5b2f56aff254952065bbbcac0c51acedb5a1d1e7"
+    },
+    {
+      "name": "redis:6-alpine",
+      "source": "docker.io/library/redis@sha256:f144fc965e3a2f3027a6c66bce596c8b780096380dad0b71d6245fa1a32bbe23",
+      "digest": "sha256:f144fc965e3a2f3027a6c66bce596c8b780096380dad0b71d6245fa1a32bbe23",
+      "index_digest": "sha256:b362b5dff9d14d961dc3352db4776aba6a8c53ca2661d7c74ad2c121f82cdaea",
+      "platform": "linux/amd64",
+      "image_id": "sha256:e80892f027ae4ce597b41ee75347321992aca98a1a1a56a18664393cfa939b07",
+      "compressed_bytes": 11427182,
+      "download_cache": "m.daocloud.io/docker.io/library/redis@sha256:f144fc965e3a2f3027a6c66bce596c8b780096380dad0b71d6245fa1a32bbe23"
+    },
+    {
+      "name": "ubuntu/squid:latest",
+      "source": "docker.io/ubuntu/squid@sha256:8fafd41d6ddceb295d26eea9938321d825ac5351c7e46cf6a8aa5d093b8ed1ce",
+      "digest": "sha256:8fafd41d6ddceb295d26eea9938321d825ac5351c7e46cf6a8aa5d093b8ed1ce",
+      "index_digest": "sha256:6a097f68bae708cedbabd6188d68c7e2e7a38cedd05a176e1cc0ba29e3bbe029",
+      "platform": "linux/amd64",
+      "image_id": "sha256:f49c57d208193ab0d5468e8daedf2eb48d78b3a842bd1d9f8849db13d566b024",
+      "compressed_bytes": 70246550,
+      "download_cache": "m.daocloud.io/docker.io/ubuntu/squid@sha256:8fafd41d6ddceb295d26eea9938321d825ac5351c7e46cf6a8aa5d093b8ed1ce"
+    }
+  ],
+  "archive": {
+    "name": "Dify课程镜像包",
+    "path": "下载文件/04_服务器依赖/dify-course-images.tar",
+    "bytes": 6793119744,
+    "sha256": "3b7a2155c083230d91480b620a06fdea6fb46b34d47e1290d3d4fa24d280d8b9",
+    "category": "server"
+  }
+}

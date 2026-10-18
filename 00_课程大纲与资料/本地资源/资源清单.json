@@ -1,0 +1,1218 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "platforms": {
+    "student": "Windows 10/11",
+    "server": "Ubuntu 24.04 x86-64",
+    "plugin": "CPython 3.12 / Linux x86-64"
+  },
+  "files": [
+    {
+      "name": "Mind+ V1.8.1 RC3.0 Windows",
+      "path": "下载文件/01_MindPlus/MindPlus_Win_V1.8.1_RC3.0.exe",
+      "url": "https://download3.dfrobot.com.cn/MindPlus_Win_V1.8.1_RC3.0.exe",
+      "bytes": 1323658312,
+      "sha256": "d2c74b4c42840a8c5065a06212703e44acb94844dbaa98c15fe7e4e60be28340",
+      "kind": "installer",
+      "category": "core"
+    },
+    {
+      "name": "Dify 1.17.1源码",
+      "path": "下载文件/02_Dify/dify-1.17.1.zip",
+      "url": "https://codeload.github.com/langgenius/dify/zip/refs/tags/1.17.1",
+      "bytes": 41173942,
+      "sha256": "ddac31cac40410ef266aab2610e2b1402849808ae2457747bb08981d678fe9f4",
+      "kind": "installer",
+      "category": "core"
+    },
+    {
+      "name": "Tongyi 0.2.23官方签名插件",
+      "path": "下载文件/02_Dify/tongyi-0.2.23.difypkg",
+      "url": "https://marketplace.dify.ai/api/v1/plugins/download?unique_identifier=langgenius%2Ftongyi%3A0.2.23%40f500332838ed670d0962a4f727618a2eb7e27a453ea56e72a28731f5f383ab72",
+      "bytes": 693315,
+      "sha256": "ee1ceafc171daf8909f7d54cae9c0e792e1476fff0d95ed0502457f83d196c23",
+      "kind": "installer",
+      "category": "core"
+    },
+    {
+      "name": "docker-ce_29.9.1-1~ubuntu.24.04~noble_amd64.deb",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/docker-ce_29.9.1-1~ubuntu.24.04~noble_amd64.deb",
+      "path": "下载文件/04_服务器依赖/Docker_Ubuntu2404_amd64/docker-ce_29.9.1-1~ubuntu.24.04~noble_amd64.deb",
+      "sha256": "463a666215797c9f9ea7d0ad1751de5b2b3806a1b539a3550e16822ef34ccbfd",
+      "bytes": 24548040,
+      "kind": "installer",
+      "category": "server"
+    },
+    {
+      "name": "docker-ce-cli_29.9.1-1~ubuntu.24.04~noble_amd64.deb",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/docker-ce-cli_29.9.1-1~ubuntu.24.04~noble_amd64.deb",
+      "path": "下载文件/04_服务器依赖/Docker_Ubuntu2404_amd64/docker-ce-cli_29.9.1-1~ubuntu.24.04~noble_amd64.deb",
+      "sha256": "961968342af4738eb5fb5fc03f9834106c1e454bd010d574cf1a6feae9905efc",
+      "bytes": 17593952,
+      "kind": "installer",
+      "category": "server"
+    },
+    {
+      "name": "containerd.io_2.4.2-2~ubuntu.24.04~noble_amd64.deb",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/containerd.io_2.4.2-2~ubuntu.24.04~noble_amd64.deb",
+      "path": "下载文件/04_服务器依赖/Docker_Ubuntu2404_amd64/containerd.io_2.4.2-2~ubuntu.24.04~noble_amd64.deb",
+      "sha256": "7327ab23182425e94b46a91567e9ddf0183f9b3a5ed53d5e2489f000dbf9cfe2",
+      "bytes": 23270672,
+      "kind": "installer",
+      "category": "server"
+    },
+    {
+      "name": "docker-buildx-plugin_0.38.0-1~ubuntu.24.04~noble_amd64.deb",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/docker-buildx-plugin_0.38.0-1~ubuntu.24.04~noble_amd64.deb",
+      "path": "下载文件/04_服务器依赖/Docker_Ubuntu2404_amd64/docker-buildx-plugin_0.38.0-1~ubuntu.24.04~noble_amd64.deb",
+      "sha256": "7094f8b50bc6b239292d475620424a531f7fa0763e466c52ffc3a4037e72bfc5",
+      "bytes": 17783524,
+      "kind": "installer",
+      "category": "server"
+    },
+    {
+      "name": "docker-compose-plugin_5.6.0-1~ubuntu.24.04~noble_amd64.deb",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/docker-compose-plugin_5.6.0-1~ubuntu.24.04~noble_amd64.deb",
+      "path": "下载文件/04_服务器依赖/Docker_Ubuntu2404_amd64/docker-compose-plugin_5.6.0-1~ubuntu.24.04~noble_amd64.deb",
+      "sha256": "132266d499d9873aafcbe5b515997b8abd714914fa32a62ccac705c1ede7ca81",
+      "bytes": 8079740,
+      "kind": "installer",
+      "category": "server"
+    },
+    {
+      "name": "aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/71/43/1947f06babed6b3f1d7f38b0c767f52df66bfb2bc10b468c4a7de9eceff2/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "sha256": "9243213661e29250eb41368e5daa826fc017156c3b8a11440826b2e3ed376472",
+      "bytes": 15038,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "aiohttp-3.14.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/52/b7/7cd31f29d6055bd711ae6e669367fba6f5ae9de463910a793e30556a8db7/aiohttp-3.14.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/aiohttp-3.14.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "543906c127fb1d929b95076db19b83fa2d46751006ff1e23b093aa5ac4d8db42",
+      "bytes": 1792122,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "aiosignal-1.4.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/fb/76/641ae371508676492379f16e2fa48f4e2c11741bd63c48be4b12a6b09cba/aiosignal-1.4.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/aiosignal-1.4.0-py3-none-any.whl",
+      "sha256": "053243f8b92b990551949e63930a839ff0cf0b0ebbe0597b0f3fb19e1a0fe82e",
+      "bytes": 7490,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "annotated_doc-0.0.5-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/3e/30/e900b21425a860e195f32e37657aa1f7c7f2b1bfb26f03ca209b90933c06/annotated_doc-0.0.5-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/annotated_doc-0.0.5-py3-none-any.whl",
+      "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101",
+      "bytes": 5302,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "annotated_types-0.8.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/annotated_types-0.8.0-py3-none-any.whl",
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+      "bytes": 13427,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "anyio-4.15.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/anyio-4.15.1-py3-none-any.whl",
+      "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+      "bytes": 132079,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "attrs-26.1.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/attrs-26.1.0-py3-none-any.whl",
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "bytes": 67548,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "blinker-1.9.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/10/cb/f2ad4230dc2eb1a74edf38f1a38b9b52277f75bef262d8908e60d957e13c/blinker-1.9.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/blinker-1.9.0-py3-none-any.whl",
+      "sha256": "ba0efaa9080b619ff2f3459d1d500c57bddea4a6b424b60a91141db6fd2f08bc",
+      "bytes": 8458,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "certifi-2026.7.22-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/certifi-2026.7.22-py3-none-any.whl",
+      "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+      "bytes": 136983,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/b1/db/dceb9dd5b231e1da801793f8acc9f3c52a7e1afe40bb1aae37e02b0faad5/cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "c1453022f490d2459a11819d83ad1d586e9ff65a12ac3e705ffebd46d3685dcf",
+      "bytes": 221822,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/6f/89/bb5108dc6c3651dca963f2b0a3ba19bbcb370c94e1b6d3e0e844a58e6dca/charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "b9af956078716df40d985fb0dfeb2c2120c5ca92ba4ff4b388acfd01cdc14d08",
+      "bytes": 248801,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "click-8.5.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/click-8.5.0-py3-none-any.whl",
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+      "bytes": 125251,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "cryptography-50.0.1-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/57/26/e6d4fc8512a51a5f9ee7bfdbfb853bce1197087df40c9ad993ad370b846f/cryptography-50.0.1-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/cryptography-50.0.1-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "ff838d62ec1bfce4f9ba7fa16f4a7b554cd8d0c299e6be37502161a660c84eef",
+      "bytes": 4712478,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "dashscope-1.27.4-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/cf/3c/b2fd6d40e21a582ef54674b751a3968f71b6e7ef032aa0afe8ada276ede8/dashscope-1.27.4-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/dashscope-1.27.4-py3-none-any.whl",
+      "sha256": "360991e9305a4dd25f225ed9f46c9f16be6313f79f02e1e67b5105e46a427250",
+      "bytes": 1958290,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "dify_plugin-0.10.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/cf/26/5897c50381eb23a10fd7ab770288d8656f3325d3407e4ee4f6fb7e70f76a/dify_plugin-0.10.2-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/dify_plugin-0.10.2-py3-none-any.whl",
+      "sha256": "5a30db98cc4c3f36bdcc70ecd217b6bb37279c39fc0a843a985b05581dc461d3",
+      "bytes": 379282,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "flask-3.1.3-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/7f/9c/34f6962f9b9e9c71f6e5ed806e0d0ff03c9d1b0b2340088a0cf4bce09b18/flask-3.1.3-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/flask-3.1.3-py3-none-any.whl",
+      "sha256": "f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c",
+      "bytes": 103424,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/6a/bd/d91c5e39f490a49df14320f4e8c80161cfcce09f1e2cde1edd16a551abb3/frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "sha256": "494a5952b1c597ba44e0e78113a7266e656b9794eec897b19ead706bd7074383",
+      "bytes": 242411,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "gevent-26.8.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/4f/f4/a49ac5d1b508dfcc9af2d08435d9c2c71fdc12d44fe75156c6441f6127de/gevent-26.8.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/gevent-26.8.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "sha256": "8e2be34e41557387a422e78c0124e2b90a4df9f1cc87c891503bf34a95ae1ce5",
+      "bytes": 2143187,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "greenlet-3.5.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/78/ac/5c5b959999b6f09c3026b5dfe171575bc3121c5236ce74f495096f25b203/greenlet-3.5.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/greenlet-3.5.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "147b25a42e5ca5be3d42356e8f608b37af715a1c196e9bf9d1627f3341adfe1d",
+      "bytes": 621439,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "h11-0.16.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/h11-0.16.0-py3-none-any.whl",
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+      "bytes": 37515,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "httpcore-1.0.9-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/httpcore-1.0.9-py3-none-any.whl",
+      "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+      "bytes": 78784,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "httpcore2-2.12.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/d2/74/d370e55600d9bcfa0d9794b0166126d49291a3d2b20c268fc98c453a4948/httpcore2-2.12.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/httpcore2-2.12.0-py3-none-any.whl",
+      "sha256": "7e04258ce01013d7d615e5b910a3b27fac937d7a95038227e79652b4ba3b4ceb",
+      "bytes": 83074,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "httpx-0.28.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/httpx-0.28.1-py3-none-any.whl",
+      "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+      "bytes": 73517,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "httpx2-2.12.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/c8/95/411ba65569158e862368917aaf56597f3e5fa3b91b0502919638465a08f3/httpx2-2.12.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/httpx2-2.12.0-py3-none-any.whl",
+      "sha256": "cc8b6eecb8661c146b8f89a60e97456ee086e91a784ed31ac450c3a9e613dd36",
+      "bytes": 95427,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "httpx_sse-0.4.3-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/d2/fd/6668e5aec43ab844de6fc74927e155a3b37bf40d7c3790e49fc0406b6578/httpx_sse-0.4.3-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/httpx_sse-0.4.3-py3-none-any.whl",
+      "sha256": "0ac1c9fe3c0afad2e0ebb25a934a59f4c7823b60792691f779fad2c5568830fc",
+      "bytes": 8960,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "idna-3.19-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/57/b0/0e52c878c53f245edd3a11020f20979b3f490f245af532c7cae3027754b5/idna-3.19-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/idna-3.19-py3-none-any.whl",
+      "sha256": "815e7be7a7806d54abb586dc943addc79e8b2ee16915059658cbeff4b1b43bf4",
+      "bytes": 68550,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "itsdangerous-2.2.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/04/96/92447566d16df59b2a776c0fb82dbc4d9e07cd95062562af01e408583fc4/itsdangerous-2.2.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/itsdangerous-2.2.0-py3-none-any.whl",
+      "sha256": "c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef",
+      "bytes": 16234,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "jinja2-3.1.6-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/jinja2-3.1.6-py3-none-any.whl",
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "bytes": 134899,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "jiter-0.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/a8/d2/4839422241aa12860ce597b20068727094ba0bc480723c74924ca5bad483/jiter-0.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/jiter-0.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "46add52f4ad47a08bfb1219f3e673da972191489a33016edefdb5ea55bfa8c48",
+      "bytes": 343805,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "markdown_it_py-4.2.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/b3/81/4da04ced5a082363ecfa159c010d200ecbd959ae410c10c0264a38cac0f5/markdown_it_py-4.2.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/markdown_it_py-4.2.0-py3-none-any.whl",
+      "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+      "bytes": 91687,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/3c/2e/8d0c2ab90a8c1d9a24f0399058ab8519a3279d1bd4289511d74e909f060e/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "d6dd0be5b5b189d31db7cda48b91d7e0a9795f31430b7f271219ab30f1d3ac9d",
+      "bytes": 22947,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "mdurl-0.1.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/mdurl-0.1.2-py3-none-any.whl",
+      "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+      "bytes": 9979,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "multidict-6.7.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/f3/8d/5e5be3ced1d12966fefb5c4ea3b2a5b480afcea36406559442c6e31d4a48/multidict-6.7.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/multidict-6.7.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "bfde23ef6ed9db7eaee6c37dcec08524cb43903c60b285b172b6c094711b3961",
+      "bytes": 256322,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/65/af/aa78d1a88805456e212b65461354cd943197fb9acecc4c90fd12295123a3/numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "b7e18c623bb5c95acb3b3328861272816ba199fb531921c5d6d0b675f1fde9e3",
+      "bytes": 16717410,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "openai-3.8.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/24/a4/c7e89d3bfb8b7c7ffa38ec9fe527bccf4df723f752fb11bdb3da6c750b76/openai-3.8.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/openai-3.8.0-py3-none-any.whl",
+      "sha256": "514736aa1e4ef1033c1209ad53897392845ccd4f2c4fae6413b2cf5f91c2c926",
+      "bytes": 1740349,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "packaging-26.3-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/packaging-26.3-py3-none-any.whl",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "bytes": 129956,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "propcache-0.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/14/15/5574111ae50dd6e879456888c0eadd4c5a869959775854e18e18a6b345f3/propcache-0.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/propcache-0.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "6f328175a2cde1f0ff2c4ed8ce968b9dcfb55f3a7153f39e2957ed994da13476",
+      "bytes": 61639,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "pycparser-3.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/pycparser-3.0-py3-none-any.whl",
+      "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992",
+      "bytes": 48172,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "pydantic-2.13.5-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/pydantic-2.13.5-py3-none-any.whl",
+      "sha256": "346a034f080da3755d8e9cb5e00e8b07de1d39e4f6e2c87d8ab7cafa0b269a73",
+      "bytes": 472589,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/c0/a4/eb9409ec0736e50aa70a412f16c204ed149516846912f7e6724d4c73ee53/pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "0fc5be0abd4a407e200d844b404e33639a554e7bd0d448e7b9ae181be4789ac2",
+      "bytes": 2066284,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "pydantic_settings-2.15.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/30/a4/2bffa9f8e804325a09867f0e9d30795c80ea9f8d62560bd1b6ad6220eb2f/pydantic_settings-2.15.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/pydantic_settings-2.15.0-py3-none-any.whl",
+      "sha256": "0ba092c291c94baceb5eff768aa0d56400a457585bc0175925a5a5510303da42",
+      "bytes": 69413,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "pydub-0.25.1-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/a6/53/d78dc063216e62fc55f6b2eebb447f6a4b0a59f55c8406376f76bf959b08/pydub-0.25.1-py2.py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/pydub-0.25.1-py2.py3-none-any.whl",
+      "sha256": "65617e33033874b59d87db603aa1ed450633288aefead953b30bded59cb599a6",
+      "bytes": 32327,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "pygments-2.21.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/pygments-2.21.0-py3-none-any.whl",
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "bytes": 1250147,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "python_dotenv-1.2.3-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/0d/17/c5c6b53ddc18f297992099b3d9ec16c855c0ccc83263a21fe4d1c625ec6c/python_dotenv-1.2.3-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/python_dotenv-1.2.3-py3-none-any.whl",
+      "sha256": "904552145e8bfed22162c09dab1c2b9b54fefa7b23ba780f4f26ca0316b0f0d9",
+      "bytes": 22780,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/8b/9d/b3589d3877982d4f2329302ef98a8026e7f4443c765c46cfecc8858c6b4b/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "ba1cc08a7ccde2d2ec775841541641e4548226580ab850948cbfda66a1befcdc",
+      "bytes": 807870,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "regex-2026.9.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/4b/8b/9cc6d4123033f7cb82df6cd8ce19eb0fc18a964afe060a03c9b26757c9f3/regex-2026.9.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/regex-2026.9.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "665207e41bacd435db001099eeab44103197c2c1a729d73ade74688a905ed4ce",
+      "bytes": 801965,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "requests-2.34.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/requests-2.34.2-py3-none-any.whl",
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "bytes": 73075,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "rich-15.0.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/rich-15.0.0-py3-none-any.whl",
+      "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb",
+      "bytes": 310654,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "shellingham-1.5.4-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/shellingham-1.5.4-py2.py3-none-any.whl",
+      "sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+      "bytes": 9755,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "sniffio-1.3.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/sniffio-1.3.1-py3-none-any.whl",
+      "sha256": "2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2",
+      "bytes": 10235,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "socksio-1.0.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/37/c3/6eeb6034408dac0fa653d126c9204ade96b819c936e136c5e8a6897eee9c/socksio-1.0.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/socksio-1.0.0-py3-none-any.whl",
+      "sha256": "95dc1f15f9b34e8d7b16f06d74b8ccf48f609af32ab33c608d08761c5dcbb1f3",
+      "bytes": 12763,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/51/11/9976ad86980a00cdef05e730a0127a2578a1bc6d11644d8d47246de2eb26/tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "sha256": "7896eea257fe497a2b7134474d909156c6744ce8da35bce88011a960e008aa0d",
+      "bytes": 1204197,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "truststore-0.10.4-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/19/97/56608b2249fe206a67cd573bc93cd9896e1efb9e98bce9c163bcdc704b88/truststore-0.10.4-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/truststore-0.10.4-py3-none-any.whl",
+      "sha256": "adaeaecf1cbb5f4de3b1959b42d41f6fab57b2b1666adb59e89cb0b53361d981",
+      "bytes": 18660,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "typer-0.27.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/dc/bf/205d0004930ede8f542fb58f601526fccf4ae7626075ca1e6c4de5d3d652/typer-0.27.2-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/typer-0.27.2-py3-none-any.whl",
+      "sha256": "b3a5fc4342d5fc8fda8fc3010b1cf117e9249aab7fae800c2eff62fd3842d97d",
+      "bytes": 123130,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "typing_extensions-4.16.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/typing_extensions-4.16.0-py3-none-any.whl",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "bytes": 45571,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "typing_inspection-0.4.4-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/typing_inspection-0.4.4-py3-none-any.whl",
+      "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147",
+      "bytes": 14750,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "urllib3-2.7.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/urllib3-2.7.0-py3-none-any.whl",
+      "sha256": "9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897",
+      "bytes": 131087,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "websocket_client-1.9.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/d5/d2/cc4dc1271e464942db7ee278baae2daa99ee77cb2af744025c04da585a3e/websocket_client-1.9.2-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/websocket_client-1.9.2-py3-none-any.whl",
+      "sha256": "e1a673830a9c7bfa47b1cd3d5e4178f4c9651d80a4eab02c9c23a1c3ec6250ce",
+      "bytes": 95786,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "werkzeug-3.1.8-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/93/8c/2e650f2afeb7ee576912636c23ddb621c91ac6a98e66dc8d29c3c69446e1/werkzeug-3.1.8-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/werkzeug-3.1.8-py3-none-any.whl",
+      "sha256": "63a77fb8892bf28ebc3178683445222aa500e48ebad5ec77b0ad80f8726b1f50",
+      "bytes": 226459,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "yarl-1.24.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/d6/d0/d56c859b8222116f5d68459199f48359e0bf121b6f65a69bf329b3602ba0/yarl-1.24.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/yarl-1.24.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "f08c7513ecef5aad65687bfdf6bc601ae9fccd04a42904501f8f7141abad9eb9",
+      "bytes": 109835,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "zope_event-6.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/9e/33/848922889e946d4befc415c219fe516af75c49555d8e736e183bfd30db42/zope_event-6.2-py3-none-any.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/zope_event-6.2-py3-none-any.whl",
+      "sha256": "5e755153ac4faf64c10a4b6dd3307680166a3edf65b38df22df592610f8fa874",
+      "bytes": 6525,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "name": "zope_interface-8.6-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/dc/5a/126eeee4da016f5cca4db2297496069d5f1ba901fb53ebf104f9c087a113/zope_interface-8.6-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl",
+      "path": "下载文件/04_服务器依赖/Tongyi_Python312/zope_interface-8.6-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl",
+      "sha256": "9217b1123f6aeec9ddf1789bffd83da3123546d551c164a99f862a5d1f5ac0f8",
+      "bytes": 270703,
+      "kind": "wheel",
+      "category": "server"
+    },
+    {
+      "url": "https://docs.dify.ai/en/self-host/deploy/quick-start/docker-compose",
+      "name": "Dify部署",
+      "path": "下载文件/03_官方资料/01_Dify部署/原始网页.html",
+      "sha256": "8163c602288019975837b745bc9d3df3e723c416efbb23b5c0e7958ebbca7886",
+      "bytes": 346966,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://docs.docker.com/engine/install/ubuntu/",
+      "name": "Docker官方Ubuntu安装步骤",
+      "path": "下载文件/03_官方资料/02_Docker官方Ubuntu安装步骤/原始网页.html",
+      "sha256": "1535e62681d1f7dee126e586ec1906745eff76e1b35879190b539a4a79978990",
+      "bytes": 584076,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://help.aliyun.com/zh/model-studio/deep-thinking",
+      "name": "百炼思考模式说明",
+      "path": "下载文件/03_官方资料/03_百炼思考模式说明/原始网页.html",
+      "sha256": "320779a949ad5c75a109ff1db5540837b566dfc09115e15a98e9f4c0bf2c55c6",
+      "bytes": 303636,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://help.aliyun.com/zh/model-studio/regions/",
+      "name": "百炼地域与接入域名",
+      "path": "下载文件/03_官方资料/04_百炼地域与接入域名/原始网页.html",
+      "sha256": "f6b8680a8687ea3758319972cfe5dad64eb0aa3e5909efa80f3e166911c8726f",
+      "bytes": 79876,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "name": "模型计费与版本",
+      "path": "下载文件/03_官方资料/05_模型计费与版本/原始网页.html",
+      "sha256": "770aba34f410ab2f47f6fde79a97aa12adbe20a65a48dd9e8ca2ecb4730872fd",
+      "bytes": 1458859,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://docs.dify.ai/en/self-host/use-dify/workspace/team-members-management",
+      "name": "成员权限",
+      "path": "下载文件/03_官方资料/06_成员权限/原始网页.html",
+      "sha256": "2b346793bd08a5b81a2aeadc5aefcd61661d8758ccffb857483bbe71af98b9a3",
+      "bytes": 307744,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://docs.dify.ai/en/self-host/use-dify/workspace/app-management",
+      "name": "应用导入导出",
+      "path": "下载文件/03_官方资料/07_应用导入导出/原始网页.html",
+      "sha256": "8650103a541134047fb4f81a556a01d946ec4dfd167ce30cf48fa1bc049341dd",
+      "bytes": 336369,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://www.dfrobot.com.cn/goods-2921.html",
+      "name": "DFRobot MBT0039",
+      "path": "下载文件/03_官方资料/08_DFRobot_MBT0039/原始网页.html",
+      "sha256": "68dd94193f46fe890b1d90518054c3038f255b92036bf6a060ca6d8bd4bd98a2",
+      "bytes": 110560,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://kittenbot.cn/doc/hardware/microbitv2/",
+      "name": "中文硬件说明",
+      "path": "下载文件/03_官方资料/09_中文硬件说明/原始网页.html",
+      "sha256": "81b015991f2aa132046d1c2af223ada3d5065804a3571b7bf0574a6a8c448405",
+      "bytes": 21189,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://www.logitech.com/zh-cn/shop/p/c270-hd-webcam",
+      "name": "罗技中文产品说明",
+      "path": "下载文件/03_官方资料/10_罗技中文产品说明/原始网页.html",
+      "sha256": "7a803a50c08f940e052cb199d04f0b57f3d06290d398ed993f26e017d9f06a0b",
+      "bytes": 222231,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://mindplus.cc/download.html",
+      "name": "Mind+官方下载",
+      "path": "下载文件/03_官方资料/11_Mind_官方下载/原始网页.html",
+      "sha256": "7f199c36d2ab81535555e5315d3975beddb8bbb84bdef74ea20e31ed14dd4c5b",
+      "bytes": 63240,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://mindplus.dfrobot.com.cn/ReleaseLogs",
+      "name": "版本说明",
+      "path": "下载文件/03_官方资料/12_版本说明/原始网页.html",
+      "sha256": "78f37c9d18c8929cb55b3fde058b3f750b0aa955e067baef3b071a6a87e81163",
+      "bytes": 157628,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/none/df0cb84d6184df9f2b30338a5474507e.png",
+      "path": "下载文件/03_官方资料/12_版本说明/图000.png",
+      "sha256": "51251d6a394444a90a26a2b40575fced60338a9c0ea007918d1909e204fb3e19",
+      "bytes": 51985,
+      "kind": "image",
+      "name": "版本说明配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://mindplus.dfrobot.com.cn/ml5-knn",
+      "name": "ML5 KNN中文教程",
+      "path": "下载文件/03_官方资料/13_ML5_KNN中文教程/原始网页.html",
+      "sha256": "86fa57e4ca65bbb0be6cbe9d7069cb063162b80a4c2a153920fb908cd714cd28",
+      "bytes": 63901,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://mindplus.dfrobot.com.cn/DFR0497",
+      "name": "micro:bit实时互动",
+      "path": "下载文件/03_官方资料/14_micro_bit实时互动/原始网页.html",
+      "sha256": "b6961d2c7a5b4915869fb6cc1dc212cc240c25305b494a86d833f2b7e51cff99",
+      "bytes": 50995,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://wiki.dfrobot.com.cn/Mindplus_基础wiki教程-实时模式编程流程",
+      "name": "实时模式编程流程",
+      "path": "下载文件/03_官方资料/15_实时模式编程流程/原始网页.html",
+      "sha256": "7db57de603f89bf2ae5b18f929e5b66d1b4457af8c8f3e427f4b1196518a7ba7",
+      "bytes": 296929,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/1%E5%AE%9E%E6%97%B6%E6%A8%A1%E5%BC%8F%E5%88%87%E6%8D%A2.png",
+      "path": "下载文件/03_官方资料/15_实时模式编程流程/图000.png",
+      "sha256": "9db96973a661dab90e4e5927662870c6fdded1b0bd705695acb38d9b19c127b0",
+      "bytes": 86575,
+      "kind": "image",
+      "name": "实时模式编程流程配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/2%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE.png",
+      "path": "下载文件/03_官方资料/15_实时模式编程流程/图001.png",
+      "sha256": "cd373d0fa9df1e5c41bd3cdfaf546167f2b9096b414db3def185d9cac7771d77",
+      "bytes": 38307,
+      "kind": "image",
+      "name": "实时模式编程流程配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/3%E5%AE%9E%E6%97%B6%E6%89%A9%E5%B1%95%E4%B8%AD%E9%80%89%E6%8B%A9%E4%B8%BB%E6%8E%A7%E7%89%88.png",
+      "path": "下载文件/03_官方资料/15_实时模式编程流程/图002.png",
+      "sha256": "a292ab7f9e21062ebf42b5d5ecf06c3b519b80d3004c485909dfa6541b86fa5d",
+      "bytes": 119267,
+      "kind": "image",
+      "name": "实时模式编程流程配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/4%E6%B7%BB%E5%8A%A0%E6%89%A9%E5%B1%95%E5%8A%9F%E8%83%BD.png",
+      "path": "下载文件/03_官方资料/15_实时模式编程流程/图003.png",
+      "sha256": "0bcda14f707f3c38562de0f97e7f9e769ea393de1cc16d741aadc120c86dd3b5",
+      "bytes": 45049,
+      "kind": "image",
+      "name": "实时模式编程流程配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/5%E7%BC%96%E5%86%99%E7%A8%8B%E5%BA%8F.png",
+      "path": "下载文件/03_官方资料/15_实时模式编程流程/图004.png",
+      "sha256": "3d6dc6dbb9851ca471f7cf5535e222bc22ebaa74f7c7b3c602cb10d3941821a7",
+      "bytes": 29878,
+      "kind": "image",
+      "name": "实时模式编程流程配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/6%E8%BF%9E%E6%8E%A5%E8%AE%BE%E5%A4%87.png",
+      "path": "下载文件/03_官方资料/15_实时模式编程流程/图005.png",
+      "sha256": "ab520c01befaea11c62f85644dc84667277fefe8feec6b1da38daeee3021ad4e",
+      "bytes": 101887,
+      "kind": "image",
+      "name": "实时模式编程流程配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://imgtest.dfrobot.com.cn/DFRobotCnWikiImage/7%E8%BF%9B%E8%A1%8C%E4%BA%A4%E4%BA%92.png",
+      "path": "下载文件/03_官方资料/15_实时模式编程流程/图006.png",
+      "sha256": "6ca2d970f846422c2432be63ce0249bdc061e68c512635fcef0dc1aa2a2d72a3",
+      "bytes": 97733,
+      "kind": "image",
+      "name": "实时模式编程流程配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://mindplus.dfrobot.com.cn/FAQ",
+      "name": "Mind+常见问题",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/原始网页.html",
+      "sha256": "6814088e1383aade3a4becd6c69b4a60cb9f1a5173874e2b74f7b88488a37e64",
+      "bytes": 128927,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wikicn/599a45d540a65c6bb27c3b2a/c2dbdbec8e300e4a48b13d9ebd36afc9.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图000.png",
+      "sha256": "0b8d910e92dea1fb5f3ecddcab80b1e9ab3318a947b42d6549ac5eacc0f29b2a",
+      "bytes": 119670,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/bd9eb20887ecf4fe0894906e2cb9b8c9.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图001.png",
+      "sha256": "aab0317c33b33b43e703197e6c3ad7c00f479d1aeacaccc5bed603c5845a6384",
+      "bytes": 114012,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/df6a651c086324b591d509ae9610b034.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图002.png",
+      "sha256": "060f12ab95da70c6192928800e6cd35ef5fd73c332a96f549badb9100af4a78f",
+      "bytes": 145567,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/3fcc732859c02d6e607d4aee14cdc20e.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图003.png",
+      "sha256": "b78e3629d9a000d8d9cc2e4c91c028676bb721cfc5a31b9889ce91a47a785bce",
+      "bytes": 254105,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/7de8ffd524644198c591aa1d6ce5ae22.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图004.png",
+      "sha256": "7f59e24f9c0826c483b93c4c238a019439a3fec2dc02a3fb3859e4d2b01fce2a",
+      "bytes": 193320,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/c9f236aaffc62d39b1a3f1f631297bf3.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图005.png",
+      "sha256": "eca8c2297dc6260cad34ad161d6499d4341db0bae7fda892d2e8f2a4b14ef51a",
+      "bytes": 458862,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/ce29a506d3ce26bda6101e767f6c0d52.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图006.png",
+      "sha256": "463cdd092af02c43389b51ffe57fe9011ee6f5cc2f495b99c915c8523aa3f01f",
+      "bytes": 65254,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/none/585c165ddae97e739806cf2d9fa9980c.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图007.png",
+      "sha256": "233ddd728751cb2db4a2bfbd0438555300043218434c58fd65f032c50473930a",
+      "bytes": 98952,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/none/168167f2d1318de8cd7e9e0d2c653593.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图011.png",
+      "sha256": "4ac1211f95ead1f5a0ab930af90fb0ca8d7cd0af73cb37e0ee30b5aa77df8ec9",
+      "bytes": 5811,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/bae72a5fc017c28e6b42906a76b6c636.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图012.png",
+      "sha256": "6b2ec281cb7c24f262b0d2e9832b8bc57702652e7215554cf202259db21a14a7",
+      "bytes": 83032,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/644822e1e1032699e4bc735c306a5ef3.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图015.png",
+      "sha256": "eda68fcf14284b1100f34974b3037bd0c877b61599f03dc9698ad754edaaeb90",
+      "bytes": 18913,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/5a39847bfb2b4193dd0a431e7f69e78f.png",
+      "path": "下载文件/03_官方资料/16_Mind_常见问题/图017.png",
+      "sha256": "1a714a02545a828cfd5703ca994f33b4b66fcde140f732b8ded4392c3849b023",
+      "bytes": 4579,
+      "kind": "image",
+      "name": "Mind+常见问题配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://mindplus.dfrobot.com.cn/yulan",
+      "name": "Mind+功能预览",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/原始网页.html",
+      "sha256": "c495fcd77ba071f3f463699182b619c9f786d31dcfdf531aeb2e4e9ec8c2179d",
+      "bytes": 68505,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/02fa723fcecd54db2f1248ccfea74d32.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图000.png",
+      "sha256": "b1d30ae073775e39441e54604c09d73c871fc067547fad4b69dec73e130ea3ba",
+      "bytes": 4559,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/23862c64ed1e5b3b11ffd82789aa4f80.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图005.png",
+      "sha256": "16b86ed43fa388faf4d1f430b1dcac63e78b31ef3ac94962f72017a99de995e5",
+      "bytes": 26054,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/851c65d2b9c7220204a05bbc49cc571c.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图006.png",
+      "sha256": "3da600f57e7c1f74df0fae2b3f0adb2f1fb68647ad0cd4e3767bb5a5c50e2946",
+      "bytes": 5372,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/6f692752838b40197bef295d250be521.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图007.png",
+      "sha256": "ec94211d010cdf1e4cd79ee8ae999e2738335f13f0993e55244f68ec9096da07",
+      "bytes": 129772,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/7ba6916537a0807e0876f4a38b027b3f.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图008.png",
+      "sha256": "0e6b519bf9f5eb5227ba4605e0fb7ad6e03002181380f629e82b1945d4adb23e",
+      "bytes": 5276,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/2239f904e7e74d5ee27223e5c8a7b2de.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图009.png",
+      "sha256": "e947d54f032d779a5147c48be612833316693922ce8cefd842972732df65aaee",
+      "bytes": 289543,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/48108eb1bd74438bacf852d758354534.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图010.png",
+      "sha256": "90f866670e79dba542601d25ac03776524d77b082664381dc933719253cb2c92",
+      "bytes": 315351,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/46bf600c50883602bd82e781c8e1dbe7.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图011.png",
+      "sha256": "5ec23c2d1fa9b049f7dec2486e3afacfea08c6154e56cdecd04b18ca7ea1c4f9",
+      "bytes": 248955,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/8b4b131193b2f35da358e6efd45d0bc3.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图012.png",
+      "sha256": "941e990f04116940b80ea3d60fb10e639e583e10c9c7c5947c2f5583b0decae6",
+      "bytes": 154037,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/357b03a579950870caff35c8cc8502b2.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图013.png",
+      "sha256": "773c44583dc930443fad1a0c610b27d1ebb87ddfcc86aa66cff3a68f2e3edee8",
+      "bytes": 223218,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/62ce565e00c42467346e548f205d7793.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图014.png",
+      "sha256": "f878f1e0b96fc64af4a3e87605f14279ba0c16b18e0a58cd6b67c5da1d6d6ffe",
+      "bytes": 311714,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/584b39a14404ea93728f4d5f225277bf.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图015.png",
+      "sha256": "7ce90a758f95fc4294df485f80db7ac4d302e2cea4ad4a76423eb33bd8dd6edb",
+      "bytes": 188671,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://img.dfrobot.com.cn/wiki/599a45d540a65c6bb27c3b2a/7ba15cfc0123522c28bf487360cad673.png",
+      "path": "下载文件/03_官方资料/17_Mind_功能预览/图016.png",
+      "sha256": "3757f532617a8f7d43c481bd79626c9b72aa6a822d44037d2e6c7f098dce5a3c",
+      "bytes": 648630,
+      "kind": "image",
+      "name": "Mind+功能预览配图",
+      "category": "docs"
+    },
+    {
+      "url": "https://microbit.org/teach/lessons/developing-ai-literacy-with-the-microbit/",
+      "name": "micro:bit AI素养课程",
+      "path": "下载文件/03_官方资料/18_micro_bit_AI素养课程/原始网页.html",
+      "sha256": "f4df69630c7c90fca518c39340434c8e1345e424b9f5dad181f383525ca12cba",
+      "bytes": 404306,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://docs.dify.ai/en/self-host/deploy/configuration/environments",
+      "name": "环境参数",
+      "path": "下载文件/03_官方资料/19_环境参数/原始网页.html",
+      "sha256": "cad89a77aaa6f0d10a449f486c1fabea4f192f98b23e10dbca3b083c94aa060b",
+      "bytes": 1261326,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://help.aliyun.com/zh/model-studio/rate-limit",
+      "name": "百炼限流",
+      "path": "下载文件/03_官方资料/20_百炼限流/原始网页.html",
+      "sha256": "f09d5c586c06bd7d68e6227be350356405e4306b34749167ffe9865c1d01c2eb",
+      "bytes": 681730,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://docs.dify.ai/en/self-host/use-dify/nodes/start",
+      "name": "输入节点",
+      "path": "下载文件/03_官方资料/21_输入节点/原始网页.html",
+      "sha256": "6cb407366eeeb8dc9a9884b2434407613eeddf5cc1549f010b8fb4ce48551095",
+      "bytes": 307246,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://docs.dify.ai/en/self-host/use-dify/nodes/llm",
+      "name": "模型节点",
+      "path": "下载文件/03_官方资料/22_模型节点/原始网页.html",
+      "sha256": "13faaf42891d9a834687363c56a21a43f9b92ea6b9045b5e9ab7d10ff6138068",
+      "bytes": 396256,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://docs.dify.ai/en/self-host/use-dify/nodes/knowledge-retrieval",
+      "name": "知识检索",
+      "path": "下载文件/03_官方资料/23_知识检索/原始网页.html",
+      "sha256": "f5587448b90009096a7b197af706ed1283084537cb143933ceec50a611de91b4",
+      "bytes": 350281,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://docs.dify.ai/en/self-host/use-dify/knowledge/create-knowledge/setting-indexing-methods",
+      "name": "索引方式",
+      "path": "下载文件/03_官方资料/24_索引方式/原始网页.html",
+      "sha256": "e0d27a2448cfb29505e0253501713091d0ea41d979b27083b68c3f76dfebeae1",
+      "bytes": 371940,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://docs.dify.ai/en/self-host/use-dify/nodes/ifelse",
+      "name": "条件分支",
+      "path": "下载文件/03_官方资料/25_条件分支/原始网页.html",
+      "sha256": "a847365e846d30c661e6144175a981f79fc2bf4dedad0b28737e12f0e66fd3f7",
+      "bytes": 324159,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://www.moe.gov.cn/srcsite/A29/202510/t20251029_1418393.html",
+      "name": "2025—2028学年竞赛通知",
+      "path": "下载文件/03_官方资料/26_2025_2028学年竞赛通知/原始网页.html",
+      "sha256": "a017eb7a022695438d5fe627ef54def0fd71bd0675559037d56e3ae9e66b4451",
+      "bytes": 16517,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://match.dfrobot.com.cn/contest/2026qcsgonggong/",
+      "name": "2026公共赛区说明",
+      "path": "下载文件/03_官方资料/27_2026公共赛区说明/原始网页.html",
+      "sha256": "040ab403b8717595dde8d5927db9aa1bbc82891a85675450ab4e45c9d49185c2",
+      "bytes": 43549,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://support.microbit.org/support/solutions/articles/19000089574-micro-bit-does-not-connect-in-windows",
+      "name": "microbit_Windows连接",
+      "path": "下载文件/03_官方资料/28_microbit_Windows连接/原始网页.html",
+      "sha256": "0a2d20736efc9bfb9eaf3fefd7cac36d44e57a5b03402e05fa303dc6b4d97bbe",
+      "bytes": 25106,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "url": "https://tech.microbit.org/hardware/powersupply/",
+      "name": "microbit_供电说明",
+      "path": "下载文件/03_官方资料/29_microbit_供电说明/原始网页.html",
+      "sha256": "58fff164da33d037ff415a33730c9070fc9b0d9e5292f7b3afeb898141ac4174",
+      "bytes": 23676,
+      "kind": "webpage",
+      "category": "docs"
+    },
+    {
+      "name": "microbit_AI素养教学包.zip",
+      "url": "https://downloads.microbit.org/downloads/developing-ai-literacy-with-the-micro-bit.zip",
+      "path": "下载文件/05_教师参考附件/microbit_AI素养教学包.zip",
+      "sha256": "1fc926009fa588f224142808c957ad50b805e2ac72c1dfcf70baf7a8d2777ef3",
+      "bytes": 39688854,
+      "kind": "reference",
+      "category": "docs"
+    },
+    {
+      "name": "2025至2028学年全国性竞赛名单.doc",
+      "url": "https://www.moe.gov.cn/srcsite/A29/202510/W020251029471803160286.doc",
+      "path": "下载文件/05_教师参考附件/2025至2028学年全国性竞赛名单.doc",
+      "sha256": "e86b172d8a72cfd171ea8939c2a38123cb7b06e4b887c90b2bf97a93360fab59",
+      "bytes": 62464,
+      "kind": "reference",
+      "category": "docs"
+    }
+  ]
+}
