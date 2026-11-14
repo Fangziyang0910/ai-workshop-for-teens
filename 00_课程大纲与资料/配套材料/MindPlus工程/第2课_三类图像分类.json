@@ -7,11 +7,11 @@
         "variables": {
           "var_运行": [
             "运行",
-            0
+            "0"
           ],
           "var_就绪": [
             "就绪",
-            0
+            "0"
           ],
           "var_当前标签": [
             "当前标签",
@@ -99,14 +99,14 @@
           },
           "b3": {
             "opcode": "data_setvariableto",
-            "next": "b4",
+            "next": "camera_release",
             "parent": "b2",
             "inputs": {
               "VALUE": [
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -122,7 +122,7 @@
           "b4": {
             "opcode": "machinelearning.pictureaiVideoContainer",
             "next": "b5",
-            "parent": "b3",
+            "parent": "camera_release_wait",
             "inputs": {},
             "fields": {
               "CON": [
@@ -168,6 +168,10 @@
             "opcode": "machinelearning.initKNNImageClass",
             "next": null,
             "parent": "b6",
+            "position": {
+              "x": 59,
+              "y": 473
+            },
             "inputs": {},
             "fields": {},
             "shadow": false,
@@ -177,12 +181,16 @@
             "opcode": "event_whenflagclicked",
             "next": "b1",
             "parent": null,
+            "position": {
+              "x": 23,
+              "y": 8
+            },
             "inputs": {},
             "fields": {},
             "shadow": false,
             "topLevel": true,
-            "x": 30,
-            "y": 30
+            "x": 24,
+            "y": 9
           },
           "b9": {
             "opcode": "data_setvariableto",
@@ -229,7 +237,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -244,7 +252,7 @@
           },
           "b12": {
             "opcode": "data_setvariableto",
-            "next": "b13",
+            "next": null,
             "parent": "b11",
             "inputs": {
               "VALUE": [
@@ -267,13 +275,17 @@
           "b13": {
             "opcode": "machinelearning.imageClassificationFromCamera",
             "next": null,
-            "parent": "b12",
+            "parent": null,
+            "position": {
+              "x": 1088,
+              "y": -226
+            },
             "inputs": {
               "TEXT": [
                 1,
                 [
                   10,
-                  "glue"
+                  "笔"
                 ]
               ]
             },
@@ -284,12 +296,18 @@
               ]
             },
             "shadow": false,
-            "topLevel": false
+            "topLevel": true,
+            "x": 1089,
+            "y": -225
           },
           "b14": {
             "opcode": "event_whenkeypressed",
             "next": "b9",
             "parent": null,
+            "position": {
+              "x": 585,
+              "y": 46
+            },
             "inputs": {},
             "fields": {
               "KEY_OPTION": [
@@ -299,13 +317,17 @@
             },
             "shadow": false,
             "topLevel": true,
-            "x": 400,
-            "y": 30
+            "x": 586,
+            "y": 47
           },
           "b15": {
             "opcode": "data_setvariableto",
             "next": "b16",
-            "parent": "b20",
+            "parent": null,
+            "position": {
+              "x": 1069,
+              "y": 95
+            },
             "inputs": {
               "VALUE": [
                 1,
@@ -322,7 +344,9 @@
               ]
             },
             "shadow": false,
-            "topLevel": false
+            "topLevel": true,
+            "x": 1070,
+            "y": 95
           },
           "b16": {
             "opcode": "machinelearning.predictImageClass",
@@ -347,7 +371,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -362,7 +386,7 @@
           },
           "b18": {
             "opcode": "data_setvariableto",
-            "next": "b19",
+            "next": null,
             "parent": "b17",
             "inputs": {
               "VALUE": [
@@ -385,13 +409,17 @@
           "b19": {
             "opcode": "machinelearning.imageClassificationFromCamera",
             "next": null,
-            "parent": "b18",
+            "parent": null,
+            "position": {
+              "x": 1526,
+              "y": -226
+            },
             "inputs": {
               "TEXT": [
                 1,
                 [
                   10,
-                  "eraser"
+                  "橡皮"
                 ]
               ]
             },
@@ -402,12 +430,18 @@
               ]
             },
             "shadow": false,
-            "topLevel": false
+            "topLevel": true,
+            "x": 1527,
+            "y": -227
           },
           "b20": {
             "opcode": "event_whenkeypressed",
-            "next": "b15",
+            "next": null,
             "parent": null,
+            "position": {
+              "x": 636,
+              "y": -218
+            },
             "inputs": {},
             "fields": {
               "KEY_OPTION": [
@@ -417,8 +451,8 @@
             },
             "shadow": false,
             "topLevel": true,
-            "x": 730,
-            "y": 30
+            "x": 637,
+            "y": -218
           },
           "b21": {
             "opcode": "data_setvariableto",
@@ -465,7 +499,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -509,7 +543,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -526,6 +560,10 @@
             "opcode": "event_whenkeypressed",
             "next": "b21",
             "parent": null,
+            "position": {
+              "x": 1532,
+              "y": 46
+            },
             "inputs": {},
             "fields": {
               "KEY_OPTION": [
@@ -535,8 +573,8 @@
             },
             "shadow": false,
             "topLevel": true,
-            "x": 1060,
-            "y": 30
+            "x": 1531,
+            "y": 47
           },
           "b27": {
             "opcode": "pictureai_dir_setting",
@@ -565,7 +603,7 @@
                 1,
                 [
                   10,
-                  "glue"
+                  "笔"
                 ]
               ]
             },
@@ -600,7 +638,7 @@
                 1,
                 [
                   10,
-                  "eraser"
+                  "橡皮"
                 ]
               ]
             },
@@ -635,7 +673,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -647,6 +685,10 @@
             "opcode": "data_setvariableto",
             "next": "b34",
             "parent": "b37",
+            "position": {
+              "x": 19,
+              "y": 571
+            },
             "inputs": {
               "VALUE": [
                 1,
@@ -688,7 +730,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -727,6 +769,10 @@
             "opcode": "event_whenkeypressed",
             "next": "b33",
             "parent": null,
+            "position": {
+              "x": 13,
+              "y": 609
+            },
             "inputs": {},
             "fields": {
               "KEY_OPTION": [
@@ -736,8 +782,8 @@
             },
             "shadow": false,
             "topLevel": true,
-            "x": 30,
-            "y": 500
+            "x": 13,
+            "y": 609
           },
           "b38": {
             "opcode": "data_setvariableto",
@@ -784,7 +830,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -868,6 +914,10 @@
             "opcode": "event_whenkeypressed",
             "next": "b38",
             "parent": null,
+            "position": {
+              "x": 562,
+              "y": 634
+            },
             "inputs": {},
             "fields": {
               "KEY_OPTION": [
@@ -877,8 +927,8 @@
             },
             "shadow": false,
             "topLevel": true,
-            "x": 400,
-            "y": 500
+            "x": 562,
+            "y": 635
           },
           "b46": {
             "opcode": "machinelearning.predictImageClass",
@@ -967,6 +1017,10 @@
             "opcode": "event_whenkeypressed",
             "next": "b49",
             "parent": null,
+            "position": {
+              "x": 1069,
+              "y": 645
+            },
             "inputs": {},
             "fields": {
               "KEY_OPTION": [
@@ -976,8 +1030,8 @@
             },
             "shadow": false,
             "topLevel": true,
-            "x": 750,
-            "y": 500
+            "x": 1070,
+            "y": 644
           },
           "b51": {
             "opcode": "data_setvariableto",
@@ -1024,7 +1078,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -1041,6 +1095,10 @@
             "opcode": "event_whenkeypressed",
             "next": "b51",
             "parent": null,
+            "position": {
+              "x": 1551,
+              "y": 647
+            },
             "inputs": {},
             "fields": {
               "KEY_OPTION": [
@@ -1050,8 +1108,8 @@
             },
             "shadow": false,
             "topLevel": true,
-            "x": 1050,
-            "y": 500
+            "x": 1550,
+            "y": 646
           },
           "b55": {
             "opcode": "data_setvariableto",
@@ -1098,7 +1156,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -1129,6 +1187,10 @@
             "opcode": "machinelearning.exportImageClassificationModel",
             "next": null,
             "parent": "b57",
+            "position": {
+              "x": 19,
+              "y": 1473
+            },
             "inputs": {
               "PATH": [
                 1,
@@ -1143,6 +1205,10 @@
             "opcode": "event_whenkeypressed",
             "next": "b55",
             "parent": null,
+            "position": {
+              "x": 6,
+              "y": 1249
+            },
             "inputs": {},
             "fields": {
               "KEY_OPTION": [
@@ -1152,8 +1218,8 @@
             },
             "shadow": false,
             "topLevel": true,
-            "x": 30,
-            "y": 950
+            "x": 7,
+            "y": 1248
           },
           "b61": {
             "opcode": "data_setvariableto",
@@ -1200,7 +1266,7 @@
                 1,
                 [
                   10,
-                  "background"
+                  "背景"
                 ]
               ]
             },
@@ -1267,6 +1333,10 @@
             "opcode": "event_whenkeypressed",
             "next": "b61",
             "parent": null,
+            "position": {
+              "x": 539,
+              "y": 1209
+            },
             "inputs": {},
             "fields": {
               "KEY_OPTION": [
@@ -1276,8 +1346,8 @@
             },
             "shadow": false,
             "topLevel": true,
-            "x": 400,
-            "y": 950
+            "x": 539,
+            "y": 1208
           },
           "b68": {
             "opcode": "machinelearning.getImageClassification",
@@ -1393,12 +1463,47 @@
             "opcode": "event_whenflagclicked",
             "next": "b73",
             "parent": null,
+            "position": {
+              "x": 1105,
+              "y": 1202
+            },
             "inputs": {},
             "fields": {},
             "shadow": false,
             "topLevel": true,
-            "x": 750,
-            "y": 950
+            "x": 1105,
+            "y": 1201
+          },
+          "camera_release": {
+            "opcode": "machinelearning.videoToggle",
+            "next": "camera_release_wait",
+            "parent": "b3",
+            "inputs": {},
+            "fields": {
+              "VIDEO_STATE": [
+                "off",
+                null
+              ]
+            },
+            "shadow": false,
+            "topLevel": false
+          },
+          "camera_release_wait": {
+            "opcode": "control_wait",
+            "next": "b4",
+            "parent": "camera_release",
+            "inputs": {
+              "DURATION": [
+                1,
+                [
+                  4,
+                  "1"
+                ]
+              ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
           }
         },
         "comments": {},
@@ -1417,10 +1522,6 @@
         "sounds": [],
         "volume": 100,
         "layerOrder": 1,
-        "tempo": 60,
-        "videoTransparency": 0,
-        "videoState": "off",
-        "textToSpeechLanguage": null,
         "visible": false,
         "x": 0,
         "y": 0,
@@ -1459,14 +1560,13 @@
     "meta": {
       "semver": "3.0.0",
       "vm": "0.1.0",
-      "agent": "AI Workshop curriculum"
+      "agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) MindPlus/1.8.1-202506121900 Chrome/91.0.4472.164 Electron/13.6.9 Safari/537.36"
     },
     "pageInfo": {
       "page": 0,
       "codeLanguage": "javascript"
     }
   },
-  "pageIndex": 0,
   "page1": {
     "targets": [
       {
@@ -1501,7 +1601,13 @@
             "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
             "dataFormat": "svg",
             "rotationCenterX": 240,
-            "rotationCenterY": 180
+            "rotationCenterY": 180,
+            "assetType": {
+              "contentType": "image/svg+xml",
+              "name": "ImageVector",
+              "runtimeFormat": "svg",
+              "immutable": true
+            }
           }
         ],
         "sounds": [],
@@ -1531,7 +1637,13 @@
             "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
             "dataFormat": "svg",
             "rotationCenterX": 240,
-            "rotationCenterY": 180
+            "rotationCenterY": 180,
+            "assetType": {
+              "contentType": "image/svg+xml",
+              "name": "ImageVector",
+              "runtimeFormat": "svg",
+              "immutable": true
+            }
           }
         ],
         "sounds": [],
@@ -1600,7 +1712,13 @@
             "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
             "dataFormat": "svg",
             "rotationCenterX": 240,
-            "rotationCenterY": 180
+            "rotationCenterY": 180,
+            "assetType": {
+              "contentType": "image/svg+xml",
+              "name": "ImageVector",
+              "runtimeFormat": "svg",
+              "immutable": true
+            }
           }
         ],
         "sounds": [],
@@ -1630,7 +1748,13 @@
             "md5ext": "3ec904873bf7a111a0b8f2d7dc5c51a6.svg",
             "dataFormat": "svg",
             "rotationCenterX": 240,
-            "rotationCenterY": 180
+            "rotationCenterY": 180,
+            "assetType": {
+              "contentType": "image/svg+xml",
+              "name": "ImageVector",
+              "runtimeFormat": "svg",
+              "immutable": true
+            }
           }
         ],
         "sounds": [],
@@ -1662,7 +1786,9 @@
     "pageInfo": {
       "page": 2,
       "codeLanguage": "python",
-      "writeCode": ""
+      "writeCode": "",
+      "pyList": []
     }
-  }
+  },
+  "pageIndex": 0
 }
